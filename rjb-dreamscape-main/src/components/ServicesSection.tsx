@@ -1,42 +1,54 @@
-
 import { ServiceCard } from "./ServiceCard";
-import { Globe, Smartphone, TrendingUp, Database, PenTool, Briefcase } from "lucide-react";
+import {
+  Globe,
+  Smartphone,
+  TrendingUp,
+  Database,
+  PenTool,
+  Briefcase,
+} from "lucide-react";
 
 export function ServicesSection() {
   const services = [
     {
       title: "Web & Mobile App Development",
-      description: "Custom applications built with the latest technologies to deliver exceptional user experiences.",
+      description:
+        "Custom applications built with the latest technologies to deliver exceptional user experiences.",
       url: "#",
       icon: <Globe className="h-8 w-8" />,
     },
     {
       title: "Digital Marketing",
-      description: "Strategic marketing campaigns that boost your online presence and drive measurable results.",
+      description:
+        "Strategic marketing campaigns that boost your online presence and drive measurable results.",
       url: "#",
       icon: <TrendingUp className="h-8 w-8" />,
     },
     {
       title: "Web3 & Blockchain Solutions",
-      description: "Innovative blockchain solutions that position your business at the forefront of technology.",
+      description:
+        "Innovative blockchain solutions that position your business at the forefront of technology.",
       url: "#",
       icon: <Database className="h-8 w-8" />,
     },
     {
       title: "AI & Business Automation",
-      description: "AI-driven tools and automation solutions that streamline operations and increase efficiency.",
+      description:
+        "AI-driven tools and automation solutions that streamline operations and increase efficiency.",
       url: "#",
       icon: <Smartphone className="h-8 w-8" />,
     },
     {
       title: "Graphics Design & Video Production",
-      description: "Captivating visual content that elevates your brand and engages your audience.",
+      description:
+        "Captivating visual content that elevates your brand and engages your audience.",
       url: "#",
       icon: <PenTool className="h-8 w-8" />,
     },
     {
       title: "Business Services & Consultancy",
-      description: "Expert guidance and tailored solutions to help your business thrive in a competitive landscape.",
+      description:
+        "Expert guidance and tailored solutions to help your business thrive in a competitive landscape.",
       url: "#",
       icon: <Briefcase className="h-8 w-8" />,
     },
@@ -45,10 +57,12 @@ export function ServicesSection() {
   return (
     <section id="services" className="container-section">
       <div className="max-w-3xl mx-auto mb-12 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 font-takoto">Our Services</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-4 font-mokoto">
+          Our Services
+        </h2>
         <p className="text-lg text-muted-foreground">
-          We offer a comprehensive suite of digital services designed to elevate your business
-          and transform your ideas into reality.
+          We offer a comprehensive suite of digital services designed to elevate
+          your business and transform your ideas into reality.
         </p>
       </div>
 
