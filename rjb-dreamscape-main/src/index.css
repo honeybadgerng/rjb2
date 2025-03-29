@@ -5,6 +5,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Mokoto Regular (Glitch Mark 1)";
+  src: url("/fonts/mokoto-mokoto-regular-glitch-mark-1-400.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

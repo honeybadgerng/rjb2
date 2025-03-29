@@ -12,10 +12,12 @@ export function HeroSection() {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight font-mokoto-glitch">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight font-mokoto">
             Welcome to
             <br />
-            <em className="font-medium not-italic gradient-text">RJB World </em>
+            <em className="font-mokoto-glitch font-medium not-italic gradient-text">
+              RJB World
+            </em>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-muted-foreground italic">
             ...where dreams are born.
