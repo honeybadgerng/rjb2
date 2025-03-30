@@ -68,13 +68,14 @@
         const audio = document.getElementById("bg-music");
         const musicButton = document.getElementById("music-controls");
 
-        // Try to auto-play the music when the page loads
+        // Try to autoplay music
         audio.play().catch(() => {
-          console.log("Autoplay blocked. User interaction needed.");
+          console.log("Autoplay blocked. Waiting for user interaction...");
+          // Change button text to encourage interaction
           musicButton.innerText = "▶ Play Music";
         });
 
-        // Toggle play/pause
+        // Allow manual toggle
         window.toggleMusic = function () {
           if (audio.paused) {
             audio.play();
@@ -84,6 +85,18 @@
             musicButton.innerText = "▶ Play Music";
           }
         };
+
+        // If autoplay is blocked, play on first interaction (click/tap)
+        document.addEventListener(
+          "click",
+          function () {
+            if (audio.paused) {
+              audio.play();
+              musicButton.innerText = "🔊 Pause Music";
+            }
+          },
+          { once: true }
+        ); // Ensures it runs only once
       });
     </script>
 
