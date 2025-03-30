@@ -7,28 +7,28 @@ export function ProjectsSection() {
       title: "Xclusive Cleaning Services",
       description:
         "Providing premium cleaning solutions including laundry, deep cleaning, fumigation and more.",
-      url: "#",
+      url: "https://honeybadgerng.github.io/RJB-Xclusive-cleaning-company/",
       icon: <HardHat className="h-8 w-8" />,
     },
     {
       title: "Xclusive Properties",
       description:
         "A full-service real estate company offering property management and investment opportunities.",
-      url: "#",
+      url: "https://honeybadgerng.github.io/RJB-Properties/",
       icon: <Home className="h-8 w-8" />,
     },
     {
       title: "Xclusive Digital Agency",
       description:
         "A creative digital agency delivering top-tier design, development, and marketing services.",
-      url: "#",
+      url: "https://rjbxclusive.vercel.app/",
       icon: <Monitor className="h-8 w-8" />,
     },
     {
       title: "XStore",
       description:
         "An innovative e-commerce platform offering a seamless shopping experience with a wide range of products.",
-      url: "#",
+      url: "https://xclusivestore.vercel.app/",
       icon: <ShoppingBag className="h-8 w-8" />,
     },
   ];
