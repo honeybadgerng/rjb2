@@ -34,10 +34,59 @@
 
     <!-- Favicon -->
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+    <style>
+      #music-controls {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 10px 15px;
+        border-radius: 8px;
+        font-size: 14px;
+        cursor: pointer;
+        z-index: 9999;
+      }
+    </style>
   </head>
 
   <body>
     <div id="root"></div>
+
+    <!-- Background Music -->
+    <audio id="bg-music" loop>
+      <source src="/walkerworld.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <!-- Play/Pause Button -->
+    <div id="music-controls" onclick="toggleMusic()">🔊 Pause Music</div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const audio = document.getElementById("bg-music");
+        const musicButton = document.getElementById("music-controls");
+
+        // Try to auto-play the music when the page loads
+        audio.play().catch(() => {
+          console.log("Autoplay blocked. User interaction needed.");
+          musicButton.innerText = "▶ Play Music";
+        });
+
+        // Toggle play/pause
+        window.toggleMusic = function () {
+          if (audio.paused) {
+            audio.play();
+            musicButton.innerText = "🔊 Pause Music";
+          } else {
+            audio.pause();
+            musicButton.innerText = "▶ Play Music";
+          }
+        };
+      });
+    </script>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
