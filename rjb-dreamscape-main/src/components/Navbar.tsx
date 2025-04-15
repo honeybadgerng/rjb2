@@ -40,17 +40,23 @@ export function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a
+            {/* <a
               href="#home"
               className="text-sm font-medium hover:text-primary transition-colors"
             >
               Home
-            </a>
+            </a> */}
             <a
               href="#about"
               className="text-sm font-medium hover:text-primary transition-colors"
             >
               About
+            </a>
+            <a
+              href="/academy"
+              className="text-sm font-medium hover:text-primary transition-colors"
+            >
+              Academy
             </a>
             <a
               href="#services"
@@ -106,19 +112,26 @@ export function Navbar() {
         } transition-all duration-300 ease-in-out overflow-hidden bg-background dark:bg-gray-900`}
       >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col space-y-4">
-          <a
+          {/* <a
             href="#home"
             className="text-sm font-medium py-2 hover:text-primary transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
             Home
-          </a>
+          </a> */}
           <a
             href="#about"
             className="text-sm font-medium py-2 hover:text-primary transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
             About
+          </a>
+          <a
+            href="/academy"
+            className="text-sm font-medium py-2 hover:text-primary transition-colors"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Academy
           </a>
           <a
             href="#services"
