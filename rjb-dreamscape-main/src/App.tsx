@@ -13,6 +13,10 @@ import Web3BlockchainPage from "./pages/services/Web3Blockchain";
 import AIAutomationPage from "./pages/services/AIAutomation";
 import GraphicsDesignPage from "./pages/services/GraphicsDesign";
 import BusinessConsultancyPage from "./pages/services/BusinessConsultancy";
+import AcademyPage from "./pages/academy";
+import CourseDescriptionPage from "./pages/academy/[course-slug]";
+import InstructorsPage from "./pages/academy/instructors";
+import InstructorProfilePage from "./pages/academy/instructors/[name-or-id]";
 
 const queryClient = new QueryClient();
 
@@ -53,6 +57,16 @@ const App = () => (
 
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
+          <Route path="/academy" element={<AcademyPage />} />
+          <Route
+            path="/academy/:courseSlug"
+            element={<CourseDescriptionPage />}
+          />
+          <Route path="/academy/instructors" element={<InstructorsPage />} />
+          <Route
+            path="/academy/instructors/:nameOrId"
+            element={<InstructorProfilePage />}
+          />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
