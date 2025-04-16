@@ -74,10 +74,14 @@ export default function CourseDescriptionPage() {
         href={course.link}
         target="_blank"
         rel="noopener noreferrer"
-        className="btn-primary"
+        className="bg-gradient-to-r from-purple-500 to-red-500 text-white px-6 py-3 rounded-full shadow-lg hover:shadow-xl hover:from-purple-600 hover:to-red-600 transition duration-300 transform hover:scale-105"
       >
-        Buy Now
+        🚀 Enroll Now
       </a>
+      <br />
+      <br />
+      <br />
+      <br />
       <Footer />
     </div>
   );
