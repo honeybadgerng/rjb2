@@ -31,7 +31,7 @@ export function Navbar() {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <a
-              href="#"
+              href="/"
               className="text-2xl font-bold gradient-text font-mokoto-glitch"
             >
               RJB<span className="text-foreground dark:text-white"> World</span>
@@ -47,7 +47,7 @@ export function Navbar() {
               Home
             </a> */}
             <a
-              href="#about"
+              href="/about"
               className="text-sm font-medium hover:text-primary transition-colors"
             >
               About
@@ -120,7 +120,7 @@ export function Navbar() {
             Home
           </a> */}
           <a
-            href="#about"
+            href="/about"
             className="text-sm font-medium py-2 hover:text-primary transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
