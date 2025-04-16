@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { fetchInstructors } from "../../../api/instructors";
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
 import { FC } from "react";
 
 interface Instructor {
@@ -44,6 +46,7 @@ export default function InstructorsPage() {
 
   return (
     <div className="container mx-auto py-12">
+      <Navbar />
       <h1 className="text-4xl font-bold mb-8 text-center">
         Meet Our Instructors
       </h1>
@@ -52,6 +55,7 @@ export default function InstructorsPage() {
           <InstructorCard key={instructor.name} instructor={instructor} />
         ))}
       </div>
+      <Footer />
     </div>
   );
 }
