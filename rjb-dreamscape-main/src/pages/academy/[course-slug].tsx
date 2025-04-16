@@ -1,6 +1,9 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { fetchCourses } from "../../api/courses";
+import ReactMarkdown from "react-markdown";
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
 
 export default function CourseDescriptionPage() {
   const { courseSlug } = useParams();
@@ -8,10 +11,24 @@ export default function CourseDescriptionPage() {
 
   useEffect(() => {
     fetchCourses()
-      .then((courses) => {
-        const selectedCourse = courses.find((c) => c.slug === courseSlug);
-        setCourse(selectedCourse);
-      })
+      .then(
+        (
+          courses: {
+            slug: string;
+            image: string;
+            title: string;
+            description: string;
+            video?: string;
+            instructor: string;
+            instructorImage: string;
+            price: string;
+            link: string;
+          }[]
+        ) => {
+          const selectedCourse = courses.find((c) => c.slug === courseSlug);
+          setCourse(selectedCourse);
+        }
+      )
       .catch((error) => console.error("Error fetching course:", error));
   }, [courseSlug]);
 
@@ -21,6 +38,7 @@ export default function CourseDescriptionPage() {
 
   return (
     <div className="container mx-auto py-12">
+      <Navbar />
       <div className="mb-8">
         <img
           src={course.image}
@@ -29,7 +47,9 @@ export default function CourseDescriptionPage() {
         />
       </div>
       <h1 className="text-4xl font-bold mb-4">{course.title}</h1>
-      <p className="text-muted-foreground mb-6">{course.description}</p>
+      <p className="text-muted-foreground mb-6">
+        <ReactMarkdown>{course.description}</ReactMarkdown>
+      </p>
       {course.video && (
         <div className="mb-6">
           <video
@@ -50,9 +70,15 @@ export default function CourseDescriptionPage() {
           <p className="text-muted-foreground">{course.price}</p>
         </div>
       </div>
-      <a href="#" className="btn-primary">
+      <a
+        href={course.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn-primary"
+      >
         Buy Now
       </a>
+      <Footer />
     </div>
   );
 }
