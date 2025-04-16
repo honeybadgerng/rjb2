@@ -17,7 +17,7 @@ export default function AcademyPage() {
   return (
     <div>
       <Navbar />
-      <HeroSection title="Explore Knowledge at RJB Academy" />
+      <HeroSection title="Explore at RJB Academy" />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {courses.map((course) => (
           <CourseCard key={course.title} course={course} />
