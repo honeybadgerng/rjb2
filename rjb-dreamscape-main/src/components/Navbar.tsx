@@ -65,7 +65,7 @@ export function Navbar() {
               Services
             </a>
             <a
-              href="#projects"
+              href="/projects"
               className="text-sm font-medium hover:text-primary transition-colors"
             >
               Projects
@@ -141,7 +141,7 @@ export function Navbar() {
             Services
           </a>
           <a
-            href="#projects"
+            href="/projects"
             className="text-sm font-medium py-2 hover:text-primary transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
