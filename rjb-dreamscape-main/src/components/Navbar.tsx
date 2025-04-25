@@ -59,7 +59,7 @@ export function Navbar() {
               Academy
             </a>
             <a
-              href="#services"
+              href="/services"
               className="text-sm font-medium hover:text-primary transition-colors"
             >
               Services
@@ -70,18 +70,18 @@ export function Navbar() {
             >
               Projects
             </a>
-            <a
+            {/* <a
               href="#blogs"
               className="text-sm font-medium hover:text-primary transition-colors"
             >
               Blogs
-            </a>
-            <a
+            </a> */}
+            {/* <a
               href="#contact"
               className="text-sm font-medium hover:text-primary transition-colors"
             >
               Contact
-            </a>
+            </a> */}
             <ThemeToggle />
           </div>
 
@@ -134,7 +134,7 @@ export function Navbar() {
             Academy
           </a>
           <a
-            href="#services"
+            href="/services"
             className="text-sm font-medium py-2 hover:text-primary transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
@@ -147,20 +147,20 @@ export function Navbar() {
           >
             Projects
           </a>
-          <a
+          {/* <a
             href="#blogs"
             className="text-sm font-medium py-2 hover:text-primary transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
             Blogs
-          </a>
-          <a
+          </a> */}
+          {/* <a
             href="#contact"
             className="text-sm font-medium py-2 hover:text-primary transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
             Contact
-          </a>
+          </a> */}
         </div>
       </div>
     </nav>
