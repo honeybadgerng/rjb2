@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
 // Service Pages
+import Services from "./pages/services";
 import WebMobileAppPage from "./pages/services/WebMobileApp";
 import DigitalMarketingPage from "./pages/services/DigitalMarketing";
 import Web3BlockchainPage from "./pages/services/Web3Blockchain";
@@ -77,6 +78,7 @@ const App = () => (
             path="/projects/:projectSlug"
             element={<ProjectDetailsPage />}
           />
+          <Route path="/services" element={<Services />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
