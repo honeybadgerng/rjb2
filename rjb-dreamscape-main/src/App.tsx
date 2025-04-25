@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
 // Service Pages
+import Services from "./pages/services";
 import WebMobileAppPage from "./pages/services/WebMobileApp";
 import DigitalMarketingPage from "./pages/services/DigitalMarketing";
 import Web3BlockchainPage from "./pages/services/Web3Blockchain";
@@ -18,6 +19,9 @@ import CourseDescriptionPage from "./pages/academy/[course-slug]";
 import InstructorsPage from "./pages/academy/instructors";
 import InstructorProfilePage from "./pages/academy/instructors/[name-or-id]";
 import About from "./pages/about";
+
+import ProjectsPage from "./pages/projects";
+import ProjectDetailsPage from "./pages/projects/[project-slug]";
 
 const queryClient = new QueryClient();
 
@@ -69,6 +73,12 @@ const App = () => (
             path="/academy/instructors/:nameOrId"
             element={<InstructorProfilePage />}
           />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route
+            path="/projects/:projectSlug"
+            element={<ProjectDetailsPage />}
+          />
+          <Route path="/services" element={<Services />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
