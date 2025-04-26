@@ -595,8 +595,8 @@ Build predictive models using Scikit-learn, including:
 - A laptop or desktop computer.
 - No prior coding or data science experience needed — just a willingness to learn.`,
           price: "₦30,000",
-          instructor: "",
-          instructorImage: "",
+          instructor: "Philipp Muellauer",
+          instructorImage: "/images/instructors/Philipp-Muellauer.webp",
           image: "  /images/courses/DataScience.png",
           video: null,
           slug: " data-science-bootcamp",
@@ -708,8 +708,8 @@ By the end of these projects, you’ll have a portfolio of fully functional Reac
 ## **Ready to Start Your Journey?**
 If you want to land your first job as a React Native developer and build a robust portfolio of mobile apps, **Enroll Now** and begin your journey toward mastering React Native!`,
           price: "₦30,000",
-          instructor: "",
-          instructorImage: "",
+          instructor: "Ahmed Sawy",
+          instructorImage: "/images/instructors/Ahmed-Sawy.webp",
           image: "  /images/courses/ReactNative.png",
           video: null,
           slug: " react-native-bootcamp",
@@ -795,8 +795,8 @@ You won’t just learn the theory — you’ll practice it with real assignments
 ## **Ready to Become a UX Designer?**
 If you're ready to master Figma and kickstart your career in UI/UX Design, **Enroll Now** and let’s take you from Figma Zero to Figma Hero!`,
           price: "₦30,000",
-          instructor: "",
-          instructorImage: "",
+          instructor: "Daniel Walter Scott",
+          instructorImage: "images/instructors/Daniel-Walter-Scott.jpg",
           image: "  /images/courses/FigmaUIUX.jpg",
           video: null,
           slug: " figma-ui-ux-design-essentials",
