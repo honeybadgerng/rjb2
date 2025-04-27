@@ -70,7 +70,7 @@ Join now and begin your journey into the world of web development with HTML and 
           image: "/images/courses/HTMLCSS.png",
           video: null,
           slug: "web-development-bootcamp",
-          link: "https://xclusivestore.vercel.app/product/html-css-tutorial-and-projects-course-flexbox-grid",
+          link: "https://store.rjbworld.org/product/html-css-tutorial-and-projects-course-flexbox-grid",
         },
         {
           title: "iOS App Development Coding Lessons",
@@ -173,7 +173,7 @@ By the end of the 15-module course, you'll be confidently programming in Swift 5
           image: "/images/courses/swift-ios.png",
           video: null,
           slug: "ios-development-bootcamp",
-          link: "https://xclusivestore.vercel.app/product/ios-app-development-coding-lessons",
+          link: "https://store.rjbworld.org/product/ios-app-development-coding-lessons",
         },
         {
           title: "JavaScript Course(project based)",
@@ -344,7 +344,7 @@ Step into the world of JavaScript, learning to integrate it into your projects a
           image: "  /images/courses/javascript.png",
           video: null,
           slug: " javascript-course",
-          link: "https://xclusivestore.vercel.app/product/javascript-course-project-based",
+          link: "https://store.rjbworld.org/product/javascript-course-project-based",
         },
         {
           title: "The Complete Web Development Course",
@@ -422,7 +422,7 @@ Sign up now and dive into the first lesson!`,
           image: "  /images/courses/WebDevelopment.png",
           video: null,
           slug: "   web-development-bootcamp",
-          link: "https://xclusivestore.vercel.app/product/the-complete-web-development-course",
+          link: "https://store.rjbworld.org/product/the-complete-web-development-course",
         },
         {
           title: "The Complete Flutter Development Bootcamp with Dart",
@@ -501,7 +501,7 @@ Sign Up Today and start building beautiful apps with Flutter!`,
           video: null,
 
           slug: "flutter-development-bootcamp",
-          link: "https://xclusivestore.vercel.app/product/the-complete-2021-flutter-development-bootcamp-with-dart",
+          link: "https://store.rjbworld.org/product/the-complete-2021-flutter-development-bootcamp-with-dart",
         },
         {
           title: "The Complete Data Science & Machine Learning Bootcamp",
@@ -600,7 +600,7 @@ Build predictive models using Scikit-learn, including:
           image: "  /images/courses/DataScience.png",
           video: null,
           slug: " data-science-bootcamp",
-          link: "https://xclusivestore.vercel.app/product/the-complete-data-science-machine-learning-bootcamp",
+          link: "https://store.rjbworld.org/product/the-complete-data-science-machine-learning-bootcamp",
         },
         {
           title: "The Best React Native Course 2025 (From Beginner To Expert)",
@@ -713,7 +713,7 @@ If you want to land your first job as a React Native developer and build a robus
           image: "  /images/courses/ReactNative.png",
           video: null,
           slug: " react-native-bootcamp",
-          link: "https://xclusivestore.vercel.app/product/the-best-react-native-course-2025-from-beginner-to-expert",
+          link: "https://store.rjbworld.org/product/the-best-react-native-course-2025-from-beginner-to-expert",
         },
         {
           title: "Figma UI UX Design Essentials",
@@ -800,7 +800,7 @@ If you're ready to master Figma and kickstart your career in UI/UX Design, **Enr
           image: "  /images/courses/FigmaUIUX.jpg",
           video: null,
           slug: " figma-ui-ux-design-essentials",
-          link: "https://xclusivestore.vercel.app/product/figma-ui-ux-design-essentials",
+          link: "https://store.rjbworld.org/product/figma-ui-ux-design-essentials",
         },
         {
           title: "Complete React.js Next.js & TypeScript Projects Course",
@@ -924,7 +924,7 @@ We’ve added over 30 hours of new content to keep you ahead of the curve:
           image: "  /images/courses/React.jpg",
           video: null,
           slug: " complete-react-next-js-typescript-projects-course",
-          link: "https://xclusivestore.vercel.app/product/complete-react-next-js-typescript-projects-course",
+          link: "https://store.rjbworld.org/product/complete-react-next-js-typescript-projects-course",
         },
         // Add other courses here with similar formatting
       ]);
