@@ -3,29 +3,41 @@ export async function fetchProjects() {
     setTimeout(() => {
       resolve([
         {
+          title: "Yarn social - Social Media App",
+          excerpt:
+            "Yarn social is a MERN Stack social media app that uses pidgin English to interact with its users. Built with React, MongoDB, and Node.js.",
+          description: `# ✨ Yarn Social – Where Pidgin Meets the Internet
+  
+  Yarn Social is a next-generation social media platform built on the powerful MERN stack — MongoDB, Express.js, React, and Node.js — but with a twist: it speaks your language. Literally.
+
+Designed for the streets, by the streets, Yarn Social uses authentic Nigerian Pidgin English as its core language of interaction, making digital conversations feel more natural, relatable, and fun for everyday users.
+
+Whether you wan gist, post cruise, drop takes, or just dey observe, Yarn Social gives you a vibrant space to express yourself without filters — in your own voice. It’s not just another app; it’s a movement bringing local flavor to global tech.
+
+From sleek user interfaces powered by React to real-time feeds and a fast, scalable backend built on Node.js and MongoDB, Yarn Social delivers both performance and personality — giving Gen Z, Millennials, and streetwise netizens a place to truly belong.`,
+          techStacks: ["React", "MongoDB", "Node.js"],
+          image: "/images/projects/yarn-social-media-app.png",
+          slug: "yarn-social",
+          link: "/projects/yarn-social",
+          liveLink: "https://mern-social-media2.vercel.app/",
+        },
+        {
           title: "Ryde - Uber Clone",
           excerpt:
-            "Ryde is a clone of the Uber app, built with React and Node.js.",
-          description: `# Ryde - Uber Clone`,
+            "Ryde is a modern, full-stack clone of the Uber app — built with precision using React and Node.js to deliver a seamless, real-time ride-hailing experience.",
+          description: `# 🚗 Ryde – Your Ride, Reimagined
+          
+          Ryde is a modern, full-stack clone of the Uber app — built with precision using React and Node.js to deliver a seamless, real-time ride-hailing experience.
+
+From intuitive rider and driver interfaces to live geolocation tracking, trip requests, and fare estimations, Ryde captures the essence of ride-sharing and rebuilds it from the ground up. Whether you're booking a quick trip across town or managing your driver dashboard, Ryde combines simplicity, speed, and scalability to give users the smooth experience they expect from top-tier mobility apps.
+
+Engineered with the flexibility of React on the frontend and the power of Node.js on the backend, Ryde is more than just a clone — it's a blueprint for scalable, service-driven transportation tech.`,
           techStacks: ["React", "Node.js", "Tailwind CSS"],
           image: "/images/projects/ryde-uber-clone.webp",
           slug: "ryde-uber-clone",
           link: "/projects/ryde-uber-clone",
           liveLink:
             "https://drive.google.com/drive/folders/1sySVShfdgG2Aem5X-fYV3TCtHENQEncp?usp=drive_link",
-        },
-        {
-          title: "Yarn social - Social Media App",
-          excerpt:
-            "Yarn social is a MERN Stack social media app that uses pidgin English to interact with its users. Built with React, MongoDB, and Node.js.",
-          description: `# Yarn social - Social Media App
-  
-  This is a detailed description of Yarn social. It includes features, challenges, and solutions.`,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/yarn-social-media-app.png",
-          slug: "yarn-social",
-          link: "/projects/yarn-social",
-          liveLink: "https://mern-social-media2.vercel.app/",
         },
         {
           title: "Movie App - Netflix Clone",
