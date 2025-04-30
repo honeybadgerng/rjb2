@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { fetchInstructors } from "../../../api/instructors";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { FC } from "react";
+import InstructorCard from "@/components/Academy/InstructorCard"; // Import the InstructorCard component
 
 interface Instructor {
   name: string;
@@ -10,30 +10,6 @@ interface Instructor {
   bio: string;
   specializations: string[];
 }
-
-interface InstructorCardProps {
-  instructor: {
-    name: string;
-    image: string;
-    bio: string;
-    specializations: string[];
-  };
-}
-
-const InstructorCard: FC<InstructorCardProps> = ({ instructor }) => {
-  return (
-    <div>
-      <img src={instructor.image} alt={instructor.name} />
-      <h2>{instructor.name}</h2>
-      <p>{instructor.bio}</p>
-      <ul>
-        {instructor.specializations.map((spec, index) => (
-          <li key={index}>{spec}</li>
-        ))}
-      </ul>
-    </div>
-  );
-};
 
 export default function InstructorsPage() {
   const [instructors, setInstructors] = useState<Instructor[]>([]);

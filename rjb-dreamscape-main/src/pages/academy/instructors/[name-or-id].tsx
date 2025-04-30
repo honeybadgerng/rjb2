@@ -2,17 +2,25 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { fetchInstructors } from "../../../api/instructors";
 
+interface Instructor {
+  name: string;
+  image: string;
+  bio: string;
+  specializations: string[];
+  courses?: { id: string; title: string; slug: string }[];
+}
+
 export default function InstructorProfilePage() {
-  const { nameOrId } = useParams();
-  const [instructor, setInstructor] = useState(null);
+  const { nameOrId } = useParams<{ nameOrId: string }>();
+  const [instructor, setInstructor] = useState<Instructor | null>(null);
 
   useEffect(() => {
     fetchInstructors()
-      .then((instructors) => {
+      .then((instructors: Instructor[]) => {
         const selectedInstructor = instructors.find(
           (inst) => inst.name === nameOrId || inst.id === nameOrId
         );
-        setInstructor(selectedInstructor);
+        setInstructor(selectedInstructor || null);
       })
       .catch((error) => console.error("Error fetching instructor:", error));
   }, [nameOrId]);
