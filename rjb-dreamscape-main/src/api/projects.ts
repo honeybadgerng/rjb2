@@ -3,18 +3,6 @@ export async function fetchProjects() {
     setTimeout(() => {
       resolve([
         {
-          title: "Ryde - Uber Clone",
-          excerpt:
-            "Ryde is a clone of the Uber app, built with React and Node.js.",
-          description: `# Ryde - Uber Clone`,
-          techStacks: ["React", "Node.js", "Tailwind CSS"],
-          image: "/images/projects/ryde-uber-clone.webp",
-          slug: "ryde-uber-clone",
-          link: "/projects/ryde-uber-clone",
-          liveLink:
-            "https://drive.google.com/drive/folders/1sySVShfdgG2Aem5X-fYV3TCtHENQEncp?usp=drive_link",
-        },
-        {
           title: "Yarn social - Social Media App",
           excerpt:
             "Yarn social is a MERN Stack social media app that uses pidgin English to interact with its users. Built with React, MongoDB, and Node.js.",
@@ -26,6 +14,18 @@ export async function fetchProjects() {
           slug: "yarn-social",
           link: "/projects/yarn-social",
           liveLink: "https://mern-social-media2.vercel.app/",
+        },
+        {
+          title: "Ryde - Uber Clone",
+          excerpt:
+            "Ryde is a clone of the Uber app, built with React and Node.js.",
+          description: `# Ryde - Uber Clone`,
+          techStacks: ["React", "Node.js", "Tailwind CSS"],
+          image: "/images/projects/ryde-uber-clone.webp",
+          slug: "ryde-uber-clone",
+          link: "/projects/ryde-uber-clone",
+          liveLink:
+            "https://drive.google.com/drive/folders/1sySVShfdgG2Aem5X-fYV3TCtHENQEncp?usp=drive_link",
         },
         {
           title: "Movie App - Netflix Clone",
