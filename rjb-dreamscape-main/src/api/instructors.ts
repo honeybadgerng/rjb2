@@ -4,6 +4,19 @@ export async function fetchInstructors() {
     setTimeout(() => {
       resolve([
         {
+          name: "Moshood Onabanji Raji",
+          image: "/images/instructors/moshood-raji.jpeg",
+          bio: `I am the C.E.O and founder of RJB World and Academy. I am a full stack and mobile developer. I build robust solutions using Next.js, React Native (Expo), and modern web and mobile stacks. I've worked on apps like Ryde(Car hailing app), LinkUp(social media app), i-Lotus Homes(property app), Emile12 & Xstore(e-commerce app), and I’m passionate about using tech to solve real problems — from real estate discovery to facilitating international payments in naira without dollar cards.`,
+          specializations: [
+            "Mobile App Development",
+            "React Native (Expo)",
+            "Next.js (Full Stack)",
+            "JavaScript/TypeScript",
+            "API Integration & Product Design",
+          ],
+        },
+
+        {
           name: "Dr. Angela Yu",
           image: "/images/instructors/DrAngelaYu.webp",
           bio: "I'm Angela, I'm a developer with a passion for teaching. I'm the lead instructor at the London App Brewery, London's leading Programming Bootcamp. I've helped hundreds of thousands of students learn to code and change their lives by becoming a developer. I've been invited by companies such as Twitter, Facebook and Google to teach their employees",
