@@ -26,7 +26,9 @@ export default function ProjectsPage() {
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
-              <h2 className="text-xl font-semibold">{project.title}</h2>
+              <h2 className="text-xl font-semibold text-gray-900 dark:text-black">
+                {project.title}
+              </h2>
               <p className="text-gray-600">{project.excerpt}</p>
               <a
                 href={project.link}
