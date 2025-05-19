@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+// import RegistrationPage from "./pages/academy/registration";
 
 // Service Pages
 import Services from "./pages/services";
@@ -19,6 +20,7 @@ import CourseDescriptionPage from "./pages/academy/[course-slug]";
 import InstructorsPage from "./pages/academy/instructors";
 import InstructorProfilePage from "./pages/academy/instructors/[name-or-id]";
 import About from "./pages/about";
+import Contact from "./pages/contact";
 
 import ProjectsPage from "./pages/projects";
 import ProjectDetailsPage from "./pages/projects/[project-slug]";
@@ -64,6 +66,7 @@ const App = () => (
           <Route path="*" element={<NotFound />} />
           <Route path="/academy" element={<AcademyPage />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route
             path="/academy/:courseSlug"
             element={<CourseDescriptionPage />}
@@ -79,6 +82,7 @@ const App = () => (
             element={<ProjectDetailsPage />}
           />
           <Route path="/services" element={<Services />} />
+          {/* <Route path="/academy/registration" element={<RegistrationPage />} /> */}
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
