@@ -80,14 +80,14 @@ export function ForNgo() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="/document/Funding Proposal by RJB World.pdf"
+              href="/document/FundingProposalbyRJBWorld.pdf"
               download
               className="bg-primary text-white px-6 py-3 rounded-xl shadow hover:bg-primary/90 transition"
             >
               Download Full Funding Proposal
             </a>
             <a
-              href="/document/NGO Profile.pdf"
+              href="/document/NGOProfile.pdf"
               download
               className="bg-muted text-primary px-6 py-3 rounded-xl shadow hover:bg-muted/80 transition"
             >
