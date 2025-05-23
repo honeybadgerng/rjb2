@@ -23,6 +23,7 @@ import AcademyPage from "./pages/academy";
 import CourseDescriptionPage from "./pages/academy/[course-slug]";
 import InstructorsPage from "./pages/academy/instructors";
 import InstructorProfilePage from "./pages/academy/instructors/[name-or-id]";
+import ThankYouPage from "./pages/thank-you";
 import About from "./pages/about";
 import Contact from "./pages/contact";
 
@@ -77,6 +78,7 @@ const App = () => (
           <Route path="*" element={<NotFound />} />
           <Route path="/academy" element={<AcademyPage />} />
           <Route path="/about" element={<About />} />
+          <Route path="/thank-you" element={<ThankYouPage />} />
           <Route path="/contact" element={<Contact />} />
           <Route
             path="/academy/:courseSlug"
