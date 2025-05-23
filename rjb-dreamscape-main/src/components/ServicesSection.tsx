@@ -65,6 +65,34 @@ export function ServicesSection() {
       url: "/services/business-consultancy",
       icon: <Briefcase className="h-8 w-8" />,
     },
+    {
+      title: "Multilingual Platforms",
+      description:
+        "Inclusive platforms with indigenous-first UI/UX to ensure everyone can access digital tools in their native language.",
+      url: "/services/multilingual",
+      icon: <Globe className="h-8 w-8" />,
+    },
+    {
+      title: "Donation & Impact Tracking Systems",
+      description:
+        "Transparent systems to track donations and measure impact, ideal for NGOs and social enterprises.",
+      url: "/services/impact-tracking",
+      icon: <TrendingUp className="h-8 w-8" />,
+    },
+    {
+      title: "E-learning & Community Engagement Tools",
+      description:
+        "Learning management systems and engagement platforms tailored for education and grassroots impact.",
+      url: "/services/e-learning",
+      icon: <Smartphone className="h-8 w-8" />,
+    },
+    {
+      title: "AI-driven Cultural & Language Tools",
+      description:
+        "Preserve and promote heritage through intelligent tools for language learning, translation, and cultural archiving.",
+      url: "/services/ai-culture",
+      icon: <Database className="h-8 w-8" />,
+    },
   ];
 
   return (

@@ -15,6 +15,10 @@ import Web3BlockchainPage from "./pages/services/Web3Blockchain";
 import AIAutomationPage from "./pages/services/AIAutomation";
 import GraphicsDesignPage from "./pages/services/GraphicsDesign";
 import BusinessConsultancyPage from "./pages/services/BusinessConsultancy";
+import ImpactTrackingPage from "./pages/services/ImpactTrackingPage";
+import ELearningPage from "./pages/services/ELearningPage";
+import AICulturePage from "./pages/services/AICulturePage";
+import MultilingualPage from "./pages/services/MultilingualPage";
 import AcademyPage from "./pages/academy";
 import CourseDescriptionPage from "./pages/academy/[course-slug]";
 import InstructorsPage from "./pages/academy/instructors";
@@ -37,6 +41,13 @@ const App = () => (
           <Route path="/" element={<Index />} />
 
           {/* Service Routes */}
+          <Route
+            path="/services/impact-tracking"
+            element={<ImpactTrackingPage />}
+          />
+          <Route path="/services/e-learning" element={<ELearningPage />} />
+          <Route path="/services/ai-culture" element={<AICulturePage />} />
+          <Route path="/services/multilingual" element={<MultilingualPage />} />
           <Route
             path="/services/web-mobile-app"
             element={<WebMobileAppPage />}
