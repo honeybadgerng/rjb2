@@ -109,6 +109,33 @@ export function ForNgo() {
             codes is the spirit behind RJB World.
           </p>
         </div>
+        <div className="max-w-2xl mx-auto text-center mt-16">
+          <h3 className="text-2xl font-bold mb-4 ">
+            Need a Developer Who Understands Mission + Impact?
+          </h3>
+          <p className="text-muted-foreground text-lg mb-4">
+            Let’s build something meaningful.
+          </p>
+          <p className="text-muted-foreground text-base">
+            <strong>Email:</strong>{" "}
+            <a href="mailto:connect@rjbworld.org" className="underline">
+              connect@rjbworld.org
+            </a>
+            <br />
+            <strong>Web:</strong>{" "}
+            <a
+              href="https://www.rjbworld.org"
+              className="underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              www.rjbworld.org
+            </a>
+          </p>
+          <p className="mt-6 text-primary font-semibold text-lg">
+            RJB World; Empowering Purpose Through Technology.
+          </p>
+        </div>
       </div>
     </section>
   );
