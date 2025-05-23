@@ -21,7 +21,7 @@ export function AboutSection() {
           <br />
           <p className="text-lg text-muted-foreground text-justify">
             Founded with the belief that sustainable change begins within, RJB
-            World integrates innovation with intention — building platforms,
+            World integrates innovation with intention building platforms,
             services, and systems that uplift individuals, communities, and
             generations. Whether it’s creating digital solutions, launching
             social ventures, or preserving indigenous knowledge systems, every
@@ -41,15 +41,14 @@ export function AboutSection() {
           <p className="text-lg text-muted-foreground text-justify">
             We believe wealth is not only measured in currency, but in
             knowledge, spirit, freedom, and impact. That’s why our approach is
-            holistic — combining sustainable enterprise with spiritual
-            grounding, innovation with integrity, and modern tools with
-            ancestral truth.
+            holistic combining sustainable enterprise with spiritual grounding,
+            innovation with integrity, and modern tools with ancestral truth.
           </p>
           <br />
           <h3 className="text-2xl font-bold mb-4 font-mokoto">🌟 Our Vision</h3>
           <p className="text-lg text-muted-foreground text-justify">
             To become a globally recognized platform where innovation meets
-            sacred purpose — creating digital ecosystems, education, and funding
+            sacred purpose creating digital ecosystems, education, and funding
             models that liberate people spiritually, economically, and socially.
           </p>
           <p className="text-lg text-muted-foreground text-justify">
@@ -63,7 +62,7 @@ export function AboutSection() {
             🔥 What Inspires Us
           </h3>
           <p className="text-lg text-muted-foreground text-justify">
-            Our work is inspired by divine alignment — the quiet spiritual
+            Our work is inspired by divine alignment, the quiet spiritual
             revelations that happen in the early hours, the mysteries seen and
             unseen, and the urgent need to restore wholeness in a broken world.
           </p>
@@ -79,7 +78,7 @@ export function AboutSection() {
             RJB World was birthed through moments of clarity, signs, and
             spiritual instruction. These experiences have shaped not just our
             business model but our identity as an organization. We are guided by
-            more than logic — we are led by light.
+            more than logic, we are led by light.
           </p>
           <br />
           <p className="text-lg text-muted-foreground text-justify">
@@ -87,7 +86,7 @@ export function AboutSection() {
             creativity, we believe in self-funded impact. Our strategy embraces
             entrepreneurship (such as ethical ventures and digital platforms) to
             generate sustainable resources for our philanthropic missions,
-            including the RJB Foundation — our future-facing NGO focused on
+            including the RJB Foundation, our future-facing NGO focused on
             education, advocacy, and community development.
           </p>
           <br />
@@ -103,13 +102,13 @@ export function AboutSection() {
                 We speak the language of tech, but we never forget the language
                 of our ancestors.
               </li>
-              <li>We are building not just for now — but for eternity.</li>
+              <li>We are building not just for now, but for eternity.</li>
             </ul>
           </div>
           <br />
           <p className="text-lg text-muted-foreground text-justify">
             Join us as we redefine what it means to lead, serve, and build in
-            the digital age — with purpose, power, and peace.
+            the digital age with purpose, power, and peace.
           </p>
         </div>
 
@@ -122,7 +121,7 @@ export function AboutSection() {
               Purpose-Driven Innovation
             </h3>
             <p className="text-muted-foreground">
-              We build cutting-edge tech with soul — from startups to social
+              We build cutting-edge tech with soul from startups to social
               missions, our ideas create lasting impact.
             </p>
           </div>
@@ -146,7 +145,7 @@ export function AboutSection() {
               Global Vision, Cultural Roots
             </h3>
             <p className="text-muted-foreground">
-              From Yoruba-language education to global software platforms — we
+              From Yoruba-language education to global software platforms, we
               believe in preserving heritage while shaping the future.
             </p>
           </div>
