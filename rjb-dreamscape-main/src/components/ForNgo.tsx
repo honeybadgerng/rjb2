@@ -17,6 +17,35 @@ export function ForNgo() {
             education, or powering advocacy we’re here to help.
           </p>
         </div>
+        <div className="text-center max-w-2xl mx-auto mb-16">
+          <h3 className="text-2xl font-bold mb-4 font-mokoto">
+            Support the Movement
+          </h3>
+          <p className="text-muted-foreground mb-6">
+            RJB World is on a mission to preserve African heritage by teaching
+            modern subjects entirely in the Yoruba language. From math and
+            physics to computer science. Download our one-page funding proposal
+            and NGO profile to see how your support can empower vulnerable
+            children and redefine education from the roots.
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="/documents/FundingProposalbyRJBWorld.pdf"
+              download
+              className="bg-primary text-white px-6 py-3 rounded-xl shadow hover:bg-primary/90 transition"
+            >
+              Download Full Funding Proposal
+            </a>
+            <a
+              href="/documents/NGOProfile.pdf"
+              download
+              className="bg-muted text-primary px-6 py-3 rounded-xl shadow hover:bg-muted/80 transition"
+            >
+              Download Our NGO Profile
+            </a>
+          </div>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16">
           <div className="bg-background dark:bg-gray-800 rounded-xl p-6 shadow-md">
@@ -63,36 +92,6 @@ export function ForNgo() {
             <p className="text-muted-foreground">
               We digitize heritage and build modern access to ancestral wisdom.
             </p>
-          </div>
-        </div>
-
-        <div className="text-center max-w-2xl mx-auto mb-16">
-          <h3 className="text-2xl font-bold mb-4 font-mokoto">
-            Support the Movement
-          </h3>
-          <p className="text-muted-foreground mb-6">
-            RJB World is on a mission to preserve African heritage by teaching
-            modern subjects entirely in the Yoruba language. From math and
-            physics to computer science. Download our one-page funding proposal
-            and NGO profile to see how your support can empower vulnerable
-            children and redefine education from the roots.
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="/documents/FundingProposalbyRJBWorld.pdf"
-              download
-              className="bg-primary text-white px-6 py-3 rounded-xl shadow hover:bg-primary/90 transition"
-            >
-              Download Full Funding Proposal
-            </a>
-            <a
-              href="/documents/NGOProfile.pdf"
-              download
-              className="bg-muted text-primary px-6 py-3 rounded-xl shadow hover:bg-muted/80 transition"
-            >
-              Download Our NGO Profile
-            </a>
           </div>
         </div>
 
