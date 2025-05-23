@@ -19,12 +19,17 @@ export function HeroSection() {
               RJB World
             </em>
           </h1>
+
           <p className="text-xl md:text-2xl mb-8 text-muted-foreground italic">
             ...where dreams are born.
           </p>
+          <p className="text-xl md:text-xl sm:text-xl font-bold mb-6 leading-tight font-mokoto">
+            We Build Software with Soul.
+          </p>
           <p className="text-xl md:text-2xl mb-8 text-muted-foreground">
-            We transform ideas into digital masterpieces through cutting-edge
-            services and innovative solutions that elevate businesses worldwide.
+            At RJB World, we don’t just write code, we build transformative
+            digital experiences. Rooted in purpose and driven by impact, our
+            software solutions are designed to uplift missions that matter.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a
