@@ -21,9 +21,9 @@ export function Footer() {
               RJB<span className="text-foreground dark:text-white"> World</span>
             </a>
             <p className="text-muted-foreground mb-6 max-w-md">
-              At RJB World, we transform ideas into digital masterpieces through
-              cutting-edge services and innovative solutions that elevate
-              businesses worldwide.
+              At RJB World, we don’t just write code, we build transformative
+              digital experiences. Rooted in purpose and driven by impact, our
+              software solutions are designed to uplift missions that matter.
             </p>
             <div className="flex items-center space-x-4">
               <ThemeToggle />
