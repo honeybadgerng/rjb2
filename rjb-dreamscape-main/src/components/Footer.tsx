@@ -22,7 +22,7 @@ export function Footer() {
             </a>
             <p className="text-muted-foreground mb-6 max-w-md">
               At RJB World, we don’t just write code, we build transformative
-              digital experiences. Rooted in purpose and driven by impact, our
+              digital experiences. Rooted in purpose and driven by impact. Our
               software solutions are designed to uplift missions that matter.
             </p>
             <div className="flex items-center space-x-4">
