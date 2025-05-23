@@ -28,7 +28,7 @@ export function HeroSection() {
           </p>
           <p className="text-xl md:text-2xl mb-8 text-muted-foreground">
             At RJB World, we don’t just write code, we build transformative
-            digital experiences. Rooted in purpose and driven by impact, our
+            digital experiences. Rooted in purpose and driven by impact. Our
             software solutions are designed to uplift missions that matter.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
