@@ -28,7 +28,7 @@ export function ProjectsSection() {
       title: "XStore",
       description:
         "An innovative e-commerce platform offering a seamless shopping experience with a wide range of products.",
-      url: "https://xclusivestore.vercel.app/",
+      url: "https://store.rjbworld.org/",
       icon: <ShoppingBag className="h-8 w-8" />,
     },
   ];
