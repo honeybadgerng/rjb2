@@ -53,6 +53,14 @@ export function Navbar() {
               About
             </a>
             <a
+              href="https://store.rjbworld.org"
+              className="text-sm font-medium hover:text-primary transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Marketplace
+            </a>
+            <a
               href="/academy"
               className="text-sm font-medium hover:text-primary transition-colors"
             >
@@ -123,6 +131,15 @@ export function Navbar() {
             href="/about"
             className="text-sm font-medium py-2 hover:text-primary transition-colors"
             onClick={() => setIsMenuOpen(false)}
+          >
+            About
+          </a>
+          <a
+            href="https://store.rjbworld.org"
+            className="text-sm font-medium py-2 hover:text-primary transition-colors"
+            onClick={() => setIsMenuOpen(false)}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             About
           </a>
