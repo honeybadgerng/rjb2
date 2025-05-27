@@ -7,6 +7,7 @@ import { Navbar } from "@/components/Navbar";
 import { ProjectsSection } from "@/components/ProjectsSection";
 import { ServicesSection } from "@/components/ServicesSection";
 import { ForNgo } from "@/components/ForNgo";
+import Foundation from "@/components/Foundation";
 
 const Index = () => {
   return (
@@ -15,7 +16,9 @@ const Index = () => {
       <main>
         <HeroSection />
         <AboutSection />
+        <Foundation />
         <ForNgo />
+
         <ServicesSection />
         <ProjectsSection />
         {/* <BlogsSection /> */}
