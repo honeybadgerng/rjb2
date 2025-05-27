@@ -53,6 +53,12 @@ export function Navbar() {
               About
             </a>
             <a
+              href="/foundation"
+              className="text-sm font-medium hover:text-primary transition-colors"
+            >
+              Foundation
+            </a>
+            <a
               href="https://store.rjbworld.org"
               className="text-sm font-medium hover:text-primary transition-colors"
               target="_blank"
@@ -133,6 +139,13 @@ export function Navbar() {
             onClick={() => setIsMenuOpen(false)}
           >
             About
+          </a>
+          <a
+            href="/foundation"
+            className="text-sm font-medium py-2 hover:text-primary transition-colors"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Foundation
           </a>
           <a
             href="https://store.rjbworld.org"
