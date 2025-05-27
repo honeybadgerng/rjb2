@@ -2,15 +2,8 @@ import React from "react";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { useState } from "react";
-import { Helmet } from "react-helmet";
-
-<Helmet>
-  <title>RJB World Foundation – Awakening Souls & Rebuilding Humanity</title>
-  <meta
-    name="description"
-    content="Discover the mission of the RJB World Foundation – spiritual healing, lightwork, and empowerment for a new generation of awakened souls."
-  />
-</Helmet>;
+// import { Helmet } from "react-helmet-async";
+import { ForNgo } from "@/components/ForNgo";
 
 const FoundationPage = () => {
   const [copied, setCopied] = useState("");
@@ -27,6 +20,15 @@ const FoundationPage = () => {
 
   return (
     <>
+      {/* <Helmet>
+        <title>
+          RJB World Foundation – Awakening Souls & Rebuilding Humanity
+        </title>
+        <meta
+          name="description"
+          content="Discover the mission of the RJB World Foundation – spiritual healing, lightwork, and empowerment for a new generation of awakened souls."
+        />
+      </Helmet> */}
       <Navbar />
       <div className="dark:bg-gray-900 text-gray-800 dark:text-gray-100">
         {/* Hero Section */}
@@ -112,7 +114,7 @@ const FoundationPage = () => {
               Contact Us
             </a>
             <a
-              href="/donate"
+              href="#account"
               className="bg-white border border-indigo-600 text-indigo-600 px-6 py-3 rounded-lg hover:bg-indigo-100 transition"
             >
               Make a Donation
@@ -228,7 +230,7 @@ const FoundationPage = () => {
         </div>
 
         {/* Budget Section */}
-        <div className="mb-12">
+        {/* <div className="mb-12">
           <h3 className="text-2xl font-semibold mb-4">
             Estimated Budget (₦61.5M / $41,000)
           </h3>
@@ -263,7 +265,7 @@ const FoundationPage = () => {
               </tbody>
             </table>
           </div>
-        </div>
+        </div> */}
 
         {/* What We Need */}
         <div className="mb-12">
@@ -314,23 +316,26 @@ const FoundationPage = () => {
           <br />
 
           {/* Account and Wallet Info */}
-          <div className="bg-white dark:bg-gray-900 text-indigo-800 dark:text-indigo-100 rounded-md p-6 mb-6 text-left max-w-2xl mx-auto space-y-6">
+          <div
+            id="account"
+            className="bg-white dark:bg-gray-900 text-indigo-800 dark:text-indigo-100 rounded-md p-6 mb-6 text-left max-w-2xl mx-auto space-y-6"
+          >
             <div>
               <h4 className="text-xl font-semibold mb-1">
                 Bank Account (Nigeria)
               </h4>
               <p>
-                <strong>Account Name:</strong> RJB World Foundation
+                <strong>Account Name:</strong> RJB Xclusive
               </p>
               <p>
-                <strong>Bank:</strong> Zenith Bank
+                <strong>Bank:</strong> Keystone Bank
               </p>
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mt-2">
                 <p className="break-all">
-                  <strong>Account Number:</strong> 1234567890
+                  <strong>Account Number:</strong> 1009173142
                 </p>
                 <button
-                  onClick={() => handleCopy("account", "1234567890")}
+                  onClick={() => handleCopy("account", "1009173142")}
                   className="text-sm text-indigo-600 bg-indigo-100 dark:bg-indigo-700 dark:text-white px-3 py-1 rounded hover:bg-indigo-200 dark:hover:bg-indigo-600 transition"
                 >
                   {copied === "account" ? "Copied!" : "Copy"}
@@ -342,25 +347,25 @@ const FoundationPage = () => {
               <h4 className="text-xl font-semibold mb-2">Crypto Wallets</h4>
               <div className="space-y-4">
                 {[
-                  {
-                    label: "BTC",
-                    id: "btc",
-                    address: "bc1qxyzexamplebtcwalletaddress",
-                  },
+                  // {
+                  //   label: "BTC",
+                  //   id: "btc",
+                  //   address: "bc1qxyzexamplebtcwalletaddress",
+                  // },
                   {
                     label: "ETH (ERC20)",
                     id: "eth",
-                    address: "0xExampleERC20WalletAddressHere",
+                    address: "0xBB4a64b592706A8Ef346cbE2Cd29673f7f08D825",
                   },
                   {
                     label: "Polygon (MATIC)",
                     id: "matic",
-                    address: "0xExamplePolygonAddressHere",
+                    address: "0xBB4a64b592706A8Ef346cbE2Cd29673f7f08D825",
                   },
                   {
                     label: "Solana (SOL)",
                     id: "sol",
-                    address: "exampleSolanaWalletAddress123",
+                    address: "2fEz6MiNam4m6SLNjUvVYwC5yNSQoBddTKsRX5CZGtwA",
                   },
                 ].map(({ label, id, address }) => (
                   <div
@@ -383,7 +388,7 @@ const FoundationPage = () => {
           </div>
         </div>
       </section>
-
+      <ForNgo />
       <Footer />
     </>
   );
