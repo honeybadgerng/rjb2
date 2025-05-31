@@ -299,18 +299,20 @@ const FoundationPage = () => {
             born in code and carved in culture. Help us awaken the next
             generation of lightworkers.
           </p>
-          <div className="flex flex-col md:flex-row justify-center gap-4">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="#"
-              className="bg-white text-indigo-600 font-semibold px-6 py-3 rounded-lg hover:bg-indigo-100"
+              href="/documents/RJBFoundationProjectBlueprint.pdf"
+              download
+              className="bg-muted text-white px-6 py-3 rounded-xl shadow hover:bg-primary/90 transition"
             >
-              Make a Donation
+              Download Full Blueprint Proposal
             </a>
             <a
-              href="/contact"
-              className="border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-indigo-600"
+              href="/documents/RJBpitchdeck.pdf"
+              download
+              className="bg-muted text-primary px-6 py-3 rounded-xl shadow hover:bg-muted/80 transition"
             >
-              Partner or Volunteer
+              Download Pitch Deck
             </a>
           </div>
           <br />
