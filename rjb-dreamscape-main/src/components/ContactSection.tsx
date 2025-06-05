@@ -1,4 +1,4 @@
-import { Mail, MessageSquare, Send } from "lucide-react";
+import { Mail, MessageSquare, Send, Headset } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -24,7 +24,35 @@ export function ContactSection() {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium mb-1">Email Us</h3>
-                  <p className="text-muted-foreground">contact@rjbworld.com</p>
+                  <a
+                    href="mailto:rjbxclusive@gmail.com"
+                    className="text-muted-foreground underline hover:text-primary transition block"
+                  >
+                    rjbxclusive@gmail.com
+                  </a>
+                  <a
+                    href="mailto:connect@rjbworld.org"
+                    className="text-muted-foreground underline hover:text-primary transition block"
+                  >
+                    connect@rjbworld.org
+                  </a>
+                </div>
+              </div>
+              <div className="flex items-start">
+                <div className="mr-4 p-3 bg-primary/10 rounded-full">
+                  <Headset className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-medium mb-1">Call Us</h3>
+                  <a
+                    href="tel:+2348059522376"
+                    className="text-muted-foreground underline hover:text-primary transition"
+                  >
+                    +2348059522376
+                  </a>
+                  <p className="text-muted-foreground">
+                    Our support team is available 24/7
+                  </p>
                 </div>
               </div>
 
@@ -33,7 +61,17 @@ export function ContactSection() {
                   <MessageSquare className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-medium mb-1">Chat with Us</h3>
+                  <h3 className="text-lg font-medium mb-1">
+                    Chat with Us On WhatsApp
+                  </h3>
+                  <a
+                    href="https://wa.me/2348059522376"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground underline hover:text-primary transition"
+                  >
+                    +2348059522376
+                  </a>
                   <p className="text-muted-foreground">
                     Our support team is available 24/7
                   </p>
