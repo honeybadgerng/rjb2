@@ -1,3 +1,16 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
+  "redirects": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.rjbworld.org"
+        }
+      ],
+      "destination": "https://rjbworld.org",
+      "permanent": true
+    }
+  ]
 }
