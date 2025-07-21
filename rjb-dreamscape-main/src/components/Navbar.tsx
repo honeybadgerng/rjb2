@@ -84,6 +84,12 @@ export function Navbar() {
             >
               Projects
             </a>
+            <a
+              href="/careers"
+              className="text-sm font-medium hover:text-primary transition-colors"
+            >
+              Careers
+            </a>
             {/* <a
               href="#blogs"
               className="text-sm font-medium hover:text-primary transition-colors"
@@ -176,6 +182,12 @@ export function Navbar() {
             onClick={() => setIsMenuOpen(false)}
           >
             Projects
+          </a>
+          <a
+            href="/careers"
+            className="text-sm font-medium hover:text-primary transition-colors"
+          >
+            Careers
           </a>
           {/* <a
             href="#blogs"

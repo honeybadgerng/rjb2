@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import RegistrationPage from "./pages/academy/registration";
+import Careers from "./pages/careers";
+import Career from "./pages/careers/[slug]";
 
 // Service Pages
 import Services from "./pages/services";
@@ -27,9 +29,11 @@ import ThankYouPage from "./pages/thank-you";
 import About from "./pages/about";
 import Contact from "./pages/contact";
 import FoundationPage from "./pages/foundation/FoundationPage";
+import ThankYou from "./pages/careers/thank-you";
 
 import ProjectsPage from "./pages/projects";
 import ProjectDetailsPage from "./pages/projects/[project-slug]";
+import Apply from "./pages/careers/Apply/[slug]";
 
 const queryClient = new QueryClient();
 
@@ -75,6 +79,8 @@ const App = () => (
             element={<BusinessConsultancyPage />}
           />
 
+          {/* Career Routes */}
+          <Route path="/careers/apply/:slug" element={<Apply />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
           <Route path="/academy" element={<AcademyPage />} />
@@ -96,9 +102,13 @@ const App = () => (
             path="/projects/:projectSlug"
             element={<ProjectDetailsPage />}
           />
+          <Route path="/careers/:slug" element={<Career />} />
+          <Route path="/careers" element={<Careers />} />
           <Route path="/services" element={<Services />} />
           <Route path="/academy/registration" element={<RegistrationPage />} />
           <Route path="/foundation" element={<FoundationPage />} />
+          <Route path="/careers" element={<Careers />} />
+          <Route path="/careers/thank-you" element={<ThankYou />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
