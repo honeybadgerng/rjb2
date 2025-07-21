@@ -8,7 +8,8 @@ import NotFound from "./pages/NotFound";
 import RegistrationPage from "./pages/academy/registration";
 import Careers from "./pages/careers";
 import Career from "./pages/careers/[slug]";
-
+import ClientRegistration from "./pages/client-registration";
+import ThankYouClient from "./pages/client-registration/Thank-you-client";
 // Service Pages
 import Services from "./pages/services";
 import WebMobileAppPage from "./pages/services/WebMobileApp";
@@ -109,6 +110,11 @@ const App = () => (
           <Route path="/foundation" element={<FoundationPage />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/careers/thank-you" element={<ThankYou />} />
+          <Route path="/client-registration" element={<ClientRegistration />} />
+          <Route
+            path="/client-registration/Thank-you-client"
+            element={<ThankYouClient />}
+          />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

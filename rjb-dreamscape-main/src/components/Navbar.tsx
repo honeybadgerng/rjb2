@@ -47,10 +47,10 @@ export function Navbar() {
               Home
             </a> */}
             <a
-              href="/about"
+              href="/client-registration"
               className="text-sm font-medium hover:text-primary transition-colors"
             >
-              About
+              Get Started
             </a>
             <a
               href="/foundation"
@@ -140,11 +140,11 @@ export function Navbar() {
             Home
           </a> */}
           <a
-            href="/about"
+            href="/client-registration"
             className="text-sm font-medium py-2 hover:text-primary transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
-            About
+            Get Started
           </a>
           <a
             href="/foundation"

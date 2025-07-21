@@ -48,7 +48,7 @@ export default function ApplyPage() {
           <input
             type="hidden"
             name="_next"
-            value="http://localhost:8080/careers/thank-you"
+            value="https://www.rjbworld.org/careers/thank-you"
           />
 
           {/* PERSONAL INFORMATION */}
