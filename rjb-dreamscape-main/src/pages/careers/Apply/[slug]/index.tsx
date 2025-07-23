@@ -25,14 +25,11 @@ export default function ApplyPage() {
       <br />
       <div className="max-w-2xl mx-auto p-6">
         <h1 className="text-3xl font-bold mb-2">
-          Apply for {job?.title || "Loading..."}
+          Apply for Relationship Manager Position
         </h1>
-        <p className="text-muted-foreground mb-6">
-          {job?.location} | {job?.type}
-        </p>
 
         <form
-          action="https://formsubmit.co/rjbxclusive@gmail.com"
+          action="https://formsubmit.co/618de9f3a1470cb9e07ae7c0d5ccd010"
           method="POST"
           encType="multipart/form-data"
           className="space-y-6 max-w-2xl mx-auto bg-white p-6 rounded-xl shadow"
