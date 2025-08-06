@@ -53,6 +53,19 @@ Engineered with the flexibility of React on the frontend and the power of Node.j
             "https://drive.google.com/drive/folders/1sySVShfdgG2Aem5X-fYV3TCtHENQEncp?usp=drive_link",
         },
         {
+          title: "Kahrel reddin Portfolio website",
+          excerpt:
+            "Kahrel Reddin is a talented footballer known for his skills on the pitch and his dedication to the sport.",
+          description: `# ✨ Kahrel Reddin – The Rising Star
+
+          Kahrel Reddin is a talented footballer known for his skills on the pitch and his dedication to the sport. With a passion for the game and a commitment to excellence, Kahrel has made significant strides in his career, showcasing his abilities at various levels of competition.`,
+          techStacks: ["React", "MongoDB", "Node.js"],
+          image: "/images/projects/Kahrel-reddin.png",
+          slug: "kahrel-reddin",
+          link: "/projects/kahrel-reddin",
+          liveLink: "https://preview--kahrel-reddin-impact.lovable.app/",
+        },
+        {
           title: "Movie App - Netflix Clone",
           excerpt:
             "Fully functional Movie App in React Native with MovieDB api",
@@ -110,6 +123,19 @@ One-time. Full ownership.
           slug: "movie-app",
           link: "/projects/movie-app",
           liveLink: "https://store.rjbworld.org/product/movie-app",
+        },
+        {
+          title: "Georgie Kelly Portfolio website",
+          excerpt:
+            "Georgie Kelly is a professional footballer who plays as a striker for Carlisle United England.",
+          description: `# ✨ Georgie Kelly – The Rising Star
+
+          Georgie Kelly is a professional footballer who plays as a striker for Carlisle United England. he is a clinical finisher and commanding forward, Georgie Kelly has made his mark across Irish and English leagues — known for his hat-tricks, match-winning goals, and powerful presence in the final third.With a passion for the game and a commitment to excellence, Georgie has made significant strides in his career, showcasing his abilities at various levels of competition.`,
+          techStacks: ["React", "MongoDB", "Node.js"],
+          image: "/images/projects/georgie-kelly.png",
+          slug: "georgie-kelly",
+          link: "/projects/georgie-kelly",
+          liveLink: "https://preview--georgie-the-goalscorer.lovable.app/",
         },
         {
           title: "Ai Assistant Chat App - ChatGpt Clone",
