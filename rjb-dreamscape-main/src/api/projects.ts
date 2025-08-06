@@ -22,6 +22,19 @@ From sleek user interfaces powered by React to real-time feeds and a fast, scala
           liveLink: "https://mern-social-media2.vercel.app/",
         },
         {
+          title: "Kwame Thomas Portfolio website",
+          excerpt:
+            "Kwame Thomas a dynamic striker with international experience, representing both England youth levels and the Saint Kitts and Nevis national team. Known for his aerial ability, pace, and clinical finishing in the box.",
+          description: `# ✨ Kwame Thomas – The Striker's Journey
+
+  Kwame Thomas is a dynamic striker with international experience, representing both England youth levels and the Saint Kitts and Nevis national team. Known for his aerial ability, pace, and clinical finishing in the box, Kwame has made a name for himself in the competitive world of football.`,
+          techStacks: ["React", "MongoDB", "Node.js"],
+          image: "/images/projects/kwame-thomas.png",
+          slug: "kwame-thomas",
+          link: "/projects/kwame-thomas",
+          liveLink: "https://preview--kwame-striker-spark.lovable.app/",
+        },
+        {
           title: "Ryde - Uber Clone",
           excerpt:
             "Ryde is a modern, full-stack clone of the Uber app — built with precision using React and Node.js to deliver a seamless, real-time ride-hailing experience.",
