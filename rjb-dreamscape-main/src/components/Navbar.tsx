@@ -82,7 +82,7 @@ export function Navbar() {
               href="/projects"
               className="text-sm font-medium hover:text-primary transition-colors"
             >
-              Projects
+              Portfolio
             </a>
             <a
               href="/careers"
@@ -181,7 +181,7 @@ export function Navbar() {
             className="text-sm font-medium py-2 hover:text-primary transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
-            Projects
+            Portfolio
           </a>
           <a
             href="/careers"
