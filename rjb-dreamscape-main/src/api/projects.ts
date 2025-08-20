@@ -92,6 +92,18 @@ Engineered with the flexibility of React on the frontend and the power of Node.j
           liveLink: "https://preview--kahrel-reddin-impact.lovable.app/",
         },
         {
+          title: "SoulRise Ngo website",
+          excerpt:
+            "SoulRise Ngo is a non-profit organization dedicated to empowering underprivileged communities through education and skill development.",
+          description: `# ✨ SoulRise Ngo – Empowering Communities
+          SoulRise Ngo is a non-profit organization dedicated to empowering underprivileged communities through education and skill development. With a mission to uplift lives and create sustainable change, SoulRise Ngo works tirelessly to provide resources, training, and support to those in need.`,
+          techStacks: ["React", "MongoDB", "Node.js"],
+          image: "/images/projects/uplift.png",
+          slug: "soulrise-ngo",
+          link: "/projects/soulrise-ngo",
+          liveLink: "https://uplift-glow.vercel.app/",
+        },
+        {
           title: "Movie App - Netflix Clone",
           excerpt:
             "Fully functional Movie App in React Native with MovieDB api",
@@ -151,6 +163,18 @@ One-time. Full ownership.
           liveLink: "https://store.rjbworld.org/product/movie-app",
         },
         {
+          title: "EcoGuardian Ngo website",
+          excerpt:
+            "EcoGuardian Ngo is a non-profit organization dedicated to empowering underprivileged communities through education and skill development.",
+          description: `# ✨ EcoGuardian Ngo – Empowering Communities
+          EcoGuardian Ngo is a non-profit organization dedicated to empowering underprivileged communities through education and skill development. With a mission to uplift lives and create sustainable change, EcoGuardian Ngo works tirelessly to provide resources, training, and support to those in need.`,
+          techStacks: ["React", "MongoDB", "Node.js"],
+          image: "/images/projects/ecofriendly.png",
+          slug: "eco-guardian-ngo",
+          link: "/projects/eco-guardian-ngo",
+          liveLink: "https://eco-story-bloom.vercel.app/",
+        },
+        {
           title: "Georgie Kelly Portfolio website",
           excerpt:
             "Georgie Kelly is a professional footballer who plays as a striker for Carlisle United England.",
@@ -163,6 +187,17 @@ One-time. Full ownership.
           link: "/projects/georgie-kelly",
           liveLink: "https://preview--georgie-the-goalscorer.lovable.app/",
         },
+        {
+          title: "Ngo Fundraising website",
+          excerpt: "A platform to support fundraising efforts for NGOs.",
+          description: `A platform to support fundraising efforts for NGOs.`,
+          techStacks: ["React", "MongoDB", "Node.js"],
+          image: "/images/projects/crowdfunding.png",
+          slug: "ngo-fundraising",
+          link: "/projects/ngo-fundraising",
+          liveLink: "https://eco-story-bloom.vercel.app/",
+        },
+
         {
           title: "Ai Assistant Chat App - ChatGpt Clone",
           excerpt:
@@ -218,6 +253,16 @@ Start your AI journey now!
           slug: "ai-assistant-chat-app",
           link: "/projects/ai-assistant-chat-app",
           liveLink: "https://www.companysite.com/project-two",
+        },
+        {
+          title: "Ngo VolunteerMatch website",
+          excerpt: "A platform to connect volunteers with NGOs.",
+          description: `A platform to connect volunteers with NGOs.`,
+          techStacks: ["React", "MongoDB", "Node.js"],
+          image: "/images/projects/volunteer.png",
+          slug: "ngo-volunteermatch",
+          link: "/projects/ngo-volunteermatch",
+          liveLink: "https://soul-stirring-sync.vercel.app/",
         },
         {
           title: "Paul McCallum Portfolio website",
