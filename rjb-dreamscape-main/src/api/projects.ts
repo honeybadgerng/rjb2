@@ -3,6 +3,60 @@ export async function fetchProjects() {
     setTimeout(() => {
       resolve([
         {
+          title: "Signalist - modern stock market app",
+          excerpt:
+            "AI-powered modern stock market app built with Next.js, Shadcn, Better Auth, and Inngest! Track real-time prices, set personalized alerts, explore company insights, and manage watchlists.",
+          description: `# ✨ Signalist – Your Personal Stock Market Assistant
+
+  Signalist is a cutting-edge stock market application designed to empower investors with real-time data and insights. Built with Next.js, Shadcn, Better Auth, and Inngest, it offers a seamless user experience and robust functionality.
+
+The admin dashboard allows managing stocks, publishing news, and monitoring user activity, while event-driven workflows power automated alerts, AI-driven daily digests, earnings notifications, and sentiment analysis—perfect for devs who want a dynamic, real-time financial platform.
+
+If you're getting started and need assistance or face any bugs, join our active Discord community with over 50k+ members. It's a place where people help each other out.
+
+`,
+          techStacks: [
+            "Better Auth",
+            "Finnhub",
+            "Inngest",
+            "MongoDB",
+            "Nodemailer",
+            "Next.js",
+            "Shadcn UI",
+            "Tailwind CSS",
+            "Vercel",
+            "TypeScript",
+          ],
+          image: "/images/projects/signalist.png",
+          slug: "signalist",
+          link: "/projects/signalist",
+          liveLink: "https://signalist.rjbworld.org/",
+        },
+        {
+          title: "CarePulse - Healthcare patient management app",
+          excerpt:
+            "A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications, all built using Next.js..",
+          description: `# ✨ CarePulse - Healthcare patient management app
+
+  A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications, all built using Next.js.
+
+If you're getting started and need assistance or face any bugs, join our active Discord community with over 34k+ members. It's a place where people help each other out.
+`,
+          techStacks: [
+            "Next.js",
+            "Appwrite",
+            "Shadcn UI",
+            "Tailwind CSS",
+            "Sentry",
+            "Vercel",
+            "TypeScript",
+          ],
+          image: "/images/projects/carepulse.png",
+          slug: "carepulse",
+          link: "/projects/carepulse",
+          liveLink: "https://hospital.rjbworld.org/",
+        },
+        {
           title: "Yarn social - Social Media App",
           excerpt:
             "Yarn social is a MERN Stack social media app that uses pidgin English to interact with its users. Built with React, MongoDB, and Node.js.",
