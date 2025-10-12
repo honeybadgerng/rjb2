@@ -57,6 +57,30 @@ If you're getting started and need assistance or face any bugs, join our active 
           liveLink: "https://hospital.rjbworld.org/",
         },
         {
+          title: "Apple store - 3D Apple Macbook Website",
+          excerpt:
+            "Apple-style 3D website built with React, Three.js, GSAP, and TailwindCSS! Showcase products in immersive 3D scenes, scroll-animated models, and pinned sections.",
+          description: `# ✨ Apple Store - 3D Apple Macbook Website
+
+  Apple Store is a visually stunning 3D website designed to showcase the latest Apple Macbook models. Built with React, Three.js, GSAP, and TailwindCSS, it offers an immersive shopping experience with interactive 3D scenes and smooth animations.
+
+Featuring responsive design, smooth timeline animations, and visually striking image transitions—perfect for developers creating interactive, modern web experiences.
+`,
+          techStacks: [
+            "React.js",
+            "GSAP",
+            "Three.js",
+            "Tailwind CSS",
+            "Vite ",
+            "Vercel",
+            "Zustand",
+          ],
+          image: "/images/projects/apple-store.png",
+          slug: "apple-store",
+          link: "/projects/apple-store",
+          liveLink: "https://applestore.rjbworld.org/",
+        },
+        {
           title: "Yarn social - Social Media App",
           excerpt:
             "Yarn social is a MERN Stack social media app that uses pidgin English to interact with its users. Built with React, MongoDB, and Node.js.",
