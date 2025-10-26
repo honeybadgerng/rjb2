@@ -57,6 +57,29 @@ If you're getting started and need assistance or face any bugs, join our active 
           liveLink: "https://hospital.rjbworld.org/",
         },
         {
+          title: "Crowdy - Web3 crowdfunding platform",
+          excerpt:
+            "A Web3 crowdfunding platform that leverages blockchain technology to provide a transparent and secure way for individuals and organizations to raise funds for various projects and causes.",
+          description: `# ✨ Crowdy - Web3 crowdfunding platform
+
+  A Web3 crowdfunding platform that leverages blockchain technology to provide a transparent and secure way for individuals and organizations to raise funds for various projects and causes.
+
+If you're getting started and need assistance or face any bugs, join our active Discord community with over 34k+ members. It's a place where people help each other out.
+`,
+          techStacks: [
+            "Next.js",
+            "Thirdweb",
+            "Shadcn UI",
+            "Tailwind CSS",
+            "Vercel",
+            "TypeScript",
+          ],
+          image: "/images/projects/crowdy.png",
+          slug: "crowdy",
+          link: "/projects/crowdy",
+          liveLink: "https://web3crowdy.rjbworld.org/",
+        },
+        {
           title: "Apple store - 3D Apple Macbook Website",
           excerpt:
             "Apple-style 3D website built with React, Three.js, GSAP, and TailwindCSS! Showcase products in immersive 3D scenes, scroll-animated models, and pinned sections.",
