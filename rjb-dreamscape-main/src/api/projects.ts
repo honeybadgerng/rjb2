@@ -3,7 +3,7 @@ export async function fetchProjects() {
     setTimeout(() => {
       resolve([
         {
-          title: "Signalist - modern stock market app",
+          title: "Signalist - Modern Full Stack Ai Stock Market app",
           excerpt:
             "AI-powered modern stock market app built with Next.js, Shadcn, Better Auth, and Inngest! Track real-time prices, set personalized alerts, explore company insights, and manage watchlists.",
           description: `# ✨ Signalist – Your Personal Stock Market Assistant
@@ -33,6 +33,35 @@ If you're getting started and need assistance or face any bugs, join our active 
           liveLink: "https://signalist.rjbworld.org/",
         },
         {
+          title: "X Store - Full Stack E-commerce Store for Nigerians",
+          excerpt:
+            "X Store is a full-stack Next.js web application currently opereting in Lagos and Oguns State. XStore allows users to buy and sell products from different parts of Nigeria",
+          description: `# X Store - E-commerce App`,
+          techStacks: ["Next.js", "Tailwind CSS", "Node.js"],
+          image: "/images/projects/xStore.png",
+          slug: "xstore-ecommerce",
+          link: "/projects/xstore-ecommerce",
+          liveLink: "https://store.rjbworld.org",
+        },
+        {
+          title: "Ryde - Uber Clone",
+          excerpt:
+            "Ryde is a modern, full-stack clone of the Uber app — built with precision using React and Node.js to deliver a seamless, real-time ride-hailing experience.",
+          description: `# 🚗 Ryde – Your Ride, Reimagined
+          
+          Ryde is a modern, full-stack clone of the Uber app — built with precision using React and Node.js to deliver a seamless, real-time ride-hailing experience.
+
+From intuitive rider and driver interfaces to live geolocation tracking, trip requests, and fare estimations, Ryde captures the essence of ride-sharing and rebuilds it from the ground up. Whether you're booking a quick trip across town or managing your driver dashboard, Ryde combines simplicity, speed, and scalability to give users the smooth experience they expect from top-tier mobility apps.
+
+Engineered with the flexibility of React on the frontend and the power of Node.js on the backend, Ryde is more than just a clone — it's a blueprint for scalable, service-driven transportation tech.`,
+          techStacks: ["React", "Node.js", "Tailwind CSS"],
+          image: "/images/projects/ryde-uber-clone.webp",
+          slug: "ryde-uber-clone",
+          link: "/projects/ryde-uber-clone",
+          liveLink:
+            "https://drive.google.com/drive/folders/1sySVShfdgG2Aem5X-fYV3TCtHENQEncp?usp=drive_link",
+        },
+        {
           title: "CarePulse - Healthcare patient management app",
           excerpt:
             "A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications, all built using Next.js..",
@@ -57,31 +86,30 @@ If you're getting started and need assistance or face any bugs, join our active 
           liveLink: "https://hospital.rjbworld.org/",
         },
         {
-          title: "Apple store - 3D Apple Macbook Website",
+          title: "Crowdy - Web3 crowdfunding platform",
           excerpt:
-            "Apple-style 3D website built with React, Three.js, GSAP, and TailwindCSS! Showcase products in immersive 3D scenes, scroll-animated models, and pinned sections.",
-          description: `# ✨ Apple Store - 3D Apple Macbook Website
+            "A Web3 crowdfunding platform that leverages blockchain technology to provide a transparent and secure way for individuals and organizations to raise funds for various projects and causes.",
+          description: `# ✨ Crowdy - Web3 crowdfunding platform
 
-  Apple Store is a visually stunning 3D website designed to showcase the latest Apple Macbook models. Built with React, Three.js, GSAP, and TailwindCSS, it offers an immersive shopping experience with interactive 3D scenes and smooth animations.
+  A Web3 crowdfunding platform that leverages blockchain technology to provide a transparent and secure way for individuals and organizations to raise funds for various projects and causes.
 
-Featuring responsive design, smooth timeline animations, and visually striking image transitions—perfect for developers creating interactive, modern web experiences.
+If you're getting started and need assistance or face any bugs, join our active Discord community with over 34k+ members. It's a place where people help each other out.
 `,
           techStacks: [
-            "React.js",
-            "GSAP",
-            "Three.js",
+            "Next.js",
+            "Thirdweb",
+            "Shadcn UI",
             "Tailwind CSS",
-            "Vite ",
             "Vercel",
-            "Zustand",
+            "TypeScript",
           ],
-          image: "/images/projects/apple-store.png",
-          slug: "apple-store",
-          link: "/projects/apple-store",
-          liveLink: "https://applestore.rjbworld.org/",
+          image: "/images/projects/crowdy.png",
+          slug: "crowdy",
+          link: "/projects/crowdy",
+          liveLink: "https://web3crowdy.rjbworld.org/",
         },
         {
-          title: "Yarn social - Social Media App",
+          title: "Yarn social - Full stack Nigerian Social Media App",
           excerpt:
             "Yarn social is a MERN Stack social media app that uses pidgin English to interact with its users. Built with React, MongoDB, and Node.js.",
           description: `# ✨ Yarn Social – Where Pidgin Meets the Internet
@@ -100,267 +128,7 @@ From sleek user interfaces powered by React to real-time feeds and a fast, scala
           liveLink: "https://mern-social-media2.vercel.app/",
         },
         {
-          title: "Victor Oshimehn Portfolio website",
-          excerpt:
-            "Victor Osimhen is a Nigerian professional footballer, currently playing as a striker for Galatasaray and the Nigerian national team. Known for his athleticism, pace, and elite finishing, he's one of the most feared strikers in the modern game.",
-          description: `# ✨ Victor Oshimehn
-
-          Victor Osimhen is a Nigerian professional footballer, currently playing as a striker for Galatasaray and the Nigerian national team. Known for his athleticism, pace, and elite finishing, he's one of the most feared strikers in the modern game.`,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/victor-oshimehn.png",
-          slug: "victor-oshimehn",
-          link: "/projects/victor-oshimehn",
-          liveLink: "https://preview--victor-osimhen-legacy.lovable.app/",
-        },
-        {
-          title: "Kwame Thomas Portfolio website",
-          excerpt:
-            "Kwame Thomas a dynamic striker with international experience, representing both England youth levels and the Saint Kitts and Nevis national team. Known for his aerial ability, pace, and clinical finishing in the box.",
-          description: `# ✨ Kwame Thomas – The Striker's Journey
-
-  Kwame Thomas is a dynamic striker with international experience, representing both England youth levels and the Saint Kitts and Nevis national team. Known for his aerial ability, pace, and clinical finishing in the box, Kwame has made a name for himself in the competitive world of football.`,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/kwame-thomas.png",
-          slug: "kwame-thomas",
-          link: "/projects/kwame-thomas",
-          liveLink: "https://preview--kwame-striker-spark.lovable.app/",
-        },
-        {
-          title: "Ryde - Uber Clone",
-          excerpt:
-            "Ryde is a modern, full-stack clone of the Uber app — built with precision using React and Node.js to deliver a seamless, real-time ride-hailing experience.",
-          description: `# 🚗 Ryde – Your Ride, Reimagined
-          
-          Ryde is a modern, full-stack clone of the Uber app — built with precision using React and Node.js to deliver a seamless, real-time ride-hailing experience.
-
-From intuitive rider and driver interfaces to live geolocation tracking, trip requests, and fare estimations, Ryde captures the essence of ride-sharing and rebuilds it from the ground up. Whether you're booking a quick trip across town or managing your driver dashboard, Ryde combines simplicity, speed, and scalability to give users the smooth experience they expect from top-tier mobility apps.
-
-Engineered with the flexibility of React on the frontend and the power of Node.js on the backend, Ryde is more than just a clone — it's a blueprint for scalable, service-driven transportation tech.`,
-          techStacks: ["React", "Node.js", "Tailwind CSS"],
-          image: "/images/projects/ryde-uber-clone.webp",
-          slug: "ryde-uber-clone",
-          link: "/projects/ryde-uber-clone",
-          liveLink:
-            "https://drive.google.com/drive/folders/1sySVShfdgG2Aem5X-fYV3TCtHENQEncp?usp=drive_link",
-        },
-        {
-          title: "Asisat Oshoala Portfolio website",
-          excerpt:
-            "Asisat Oshoala is a Nigerian player born in Lagos, Nigeria. Asisat Lamina Oshoala's journey began at Robo FC and Rivers Angels before making history as the first African to play in the Women's Super League with Liverpool and Arsenal.",
-          description: `# ✨ Asisat Oshoala – The Trailblazer
-
-          Asisat Oshoala is a Nigerian player born in Lagos, Nigeria. Asisat Lamina Oshoala's journey began at Robo FC and Rivers Angels before making history as the first African to play in the Women's Super League with Liverpool and Arsenal.`,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/asisat-oshoala.png",
-          slug: "asisat-oshoala",
-          link: "/projects/asisat-oshoala",
-          liveLink: "https://preview--asiso-legacy-showcase.lovable.app/",
-        },
-        {
-          title: "Kahrel reddin Portfolio website",
-          excerpt:
-            "Kahrel Reddin is a talented footballer known for his skills on the pitch and his dedication to the sport.",
-          description: `# ✨ Kahrel Reddin – The Rising Star
-
-          Kahrel Reddin is a talented footballer known for his skills on the pitch and his dedication to the sport. With a passion for the game and a commitment to excellence, Kahrel has made significant strides in his career, showcasing his abilities at various levels of competition.`,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/Kahrel-reddin.png",
-          slug: "kahrel-reddin",
-          link: "/projects/kahrel-reddin",
-          liveLink: "https://preview--kahrel-reddin-impact.lovable.app/",
-        },
-        {
-          title: "SoulRise Ngo website",
-          excerpt:
-            "SoulRise Ngo is a non-profit organization dedicated to empowering underprivileged communities through education and skill development.",
-          description: `# ✨ SoulRise Ngo – Empowering Communities
-          SoulRise Ngo is a non-profit organization dedicated to empowering underprivileged communities through education and skill development. With a mission to uplift lives and create sustainable change, SoulRise Ngo works tirelessly to provide resources, training, and support to those in need.`,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/uplift.png",
-          slug: "soulrise-ngo",
-          link: "/projects/soulrise-ngo",
-          liveLink: "https://uplift-glow.vercel.app/",
-        },
-        {
-          title: "Movie App - Netflix Clone",
-          excerpt:
-            "Fully functional Movie App in React Native with MovieDB api",
-          description: `# Movie App - Netflix Clone.
-          🎬 Prebuilt Movie App for Startups & Creators
-Built with React Native | Full Source Code | Ready to Launch
-
-Ready to own your own Netflix-style app?
-Our Movie App is fully developed, polished, and ready for you to launch your brand, review platform, or entertainment startup fast!
-
-What’s Included:
-
-Movie listings powered by MovieDB API
-
-Smooth Navigation + Search functionality
-
-Image Carousel for featured movies
-
-Hero icons + modern UI
-
-Beautiful Linear Gradient styling
-
-Cross-platform ready (Web, Android, iOS)
-
-Built with React Native, Nativewind (TailwindCSS)
-
-Perfect for:
-Movie review sites, streaming startups, entertainment blogs, or fan communities.
-
-Also Includes:
-
-Full Source Code
-
-Launch Assistance
-
-6 Months Premium Support
-
-Price:
-₦800,000 or $400
-One-time. Full ownership.
-
-🎬 Start your entertainment brand today!
-
-#RJBWorld #MovieApp #ReactNativeDev #StreamingStartup #LaunchFast #MobileApps #EntertainmentTech
-          `,
-          techStacks: [
-            "React Native",
-            "Node.js",
-            "Tailwind CSS",
-            "MovieDB API",
-            "Firebase",
-            "Redux",
-          ],
-          image: "/images/projects/movie-app.webp",
-          slug: "movie-app",
-          link: "/projects/movie-app",
-          liveLink: "https://store.rjbworld.org/product/movie-app",
-        },
-        {
-          title: "EcoGuardian Ngo website",
-          excerpt:
-            "EcoGuardian Ngo is a non-profit organization dedicated to empowering underprivileged communities through education and skill development.",
-          description: `# ✨ EcoGuardian Ngo – Empowering Communities
-          EcoGuardian Ngo is a non-profit organization dedicated to empowering underprivileged communities through education and skill development. With a mission to uplift lives and create sustainable change, EcoGuardian Ngo works tirelessly to provide resources, training, and support to those in need.`,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/ecofriendly.png",
-          slug: "eco-guardian-ngo",
-          link: "/projects/eco-guardian-ngo",
-          liveLink: "https://eco-story-bloom.vercel.app/",
-        },
-        {
-          title: "Georgie Kelly Portfolio website",
-          excerpt:
-            "Georgie Kelly is a professional footballer who plays as a striker for Carlisle United England.",
-          description: `# ✨ Georgie Kelly – The Rising Star
-
-          Georgie Kelly is a professional footballer who plays as a striker for Carlisle United England. he is a clinical finisher and commanding forward, Georgie Kelly has made his mark across Irish and English leagues — known for his hat-tricks, match-winning goals, and powerful presence in the final third.With a passion for the game and a commitment to excellence, Georgie has made significant strides in his career, showcasing his abilities at various levels of competition.`,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/georgie-kelly.png",
-          slug: "georgie-kelly",
-          link: "/projects/georgie-kelly",
-          liveLink: "https://preview--georgie-the-goalscorer.lovable.app/",
-        },
-        {
-          title: "Ngo Fundraising website",
-          excerpt: "A platform to support fundraising efforts for NGOs.",
-          description: `A platform to support fundraising efforts for NGOs.`,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/crowdfunding.png",
-          slug: "ngo-fundraising",
-          link: "/projects/ngo-fundraising",
-          liveLink: "https://eco-story-bloom.vercel.app/",
-        },
-
-        {
-          title: "Ai Assistant Chat App - ChatGpt Clone",
-          excerpt:
-            "AI Voice Assistant with ChatGPT + DALL-E, you can chat with the assistant and generate art using DALL-E. You will also learn text-to-speech and speech-to-text features.",
-          description: `# Ai Assistant Chat App - ChatGpt Clone.
-          🧠🎙 Launch Your Own AI Voice Assistant App
-Built with React Native | ChatGPT + DALL·E Powered | Full Source Code
-
-Bring AI magic to your brand with our prebuilt AI Voice Assistant App — smart, fast, and ready for market!
-Skip months of dev time and own a cutting-edge app today.
-
-What’s Inside:
-
-Voice Commands: Speech-to-Text and Text-to-Speech
-
-AI Chat: Powered by ChatGPT API
-
-AI Image Generation: Powered by DALL·E API
-
-Beautiful UI with TailwindCSS (Nativewind)
-
-Lightning-fast responsiveness
-
-Cross-platform: Web, Android, iOS
-
-Perfect for:
-AI startups, virtual assistants, productivity apps, education platforms, personal project launches, and more!
-
-Also Includes:
-
-Full Source Code
-
-Launch & Setup Assistance
-
-6 Months Premium Support
-
-Price:
-₦800,000 or $400
-Lifetime license. Launch your brand today!
-
-🚀 Be the future.
-Start your AI journey now!
-          `,
-          techStacks: [
-            "React Native",
-            "Node.js",
-            "Native wind",
-            "OpenAI API",
-            "Firebase",
-            "Dell-E API",
-          ],
-          image: "/images/projects/Ai-chat-assistant.webp",
-          slug: "ai-assistant-chat-app",
-          link: "/projects/ai-assistant-chat-app",
-          liveLink: "https://www.companysite.com/project-two",
-        },
-        {
-          title: "Ngo VolunteerMatch website",
-          excerpt: "A platform to connect volunteers with NGOs.",
-          description: `A platform to connect volunteers with NGOs.`,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/volunteer.png",
-          slug: "ngo-volunteermatch",
-          link: "/projects/ngo-volunteermatch",
-          liveLink: "https://soul-stirring-sync.vercel.app/",
-        },
-        {
-          title: "Paul McCallum Portfolio website",
-          excerpt:
-            "Paul McCallum is a Eastleigh FC professional footballer. He is a dominant aerial threat and clinical finisher, Paul McCallum has spent over a decade terrorizing defences across the English football pyramid.",
-          description: `# ✨ Victor Oshimehn
-
-          A dominant aerial threat and clinical finisher, Paul McCallum has spent over a decade terrorizing defences across the English football pyramid.
-
-From grassroots beginnings at Dulwich Hamlet to scoring goals for Leyton Orient, Dagenham & Redbridge, and Eastleigh, Paul's experience, physicality, and consistency set him apart as one of the most reliable strikers in non-league football.
-
-His recent call-up to the England C squad in 2024 is testament to his enduring quality and goal-scoring prowess at the highest levels of semi-professional football.`,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/Paul-McCallum.png",
-          slug: "paul-mccallum",
-          link: "/projects/paul-mccallum",
-          liveLink: "https://preview--paul-mccallum-striker.lovable.app/",
-        },
-        {
-          title: "Food Delivery Flutter App - Uber Eats Clone",
+          title: "Full Stack Food Delivery Flutter App - Uber Eats Clone",
           excerpt:
             "A food delivery app made with Flutter x Firebase pre-built, functional and ready to go out of the box. This app has email authentication and backend already built in. ",
           description: `# Food Delivery App - Uber Eats Clone.
@@ -440,18 +208,288 @@ Minimal Aesthetic Design - The app is designed to be simple and easy to use. It 
             "https://store.rjbworld.org/product/food-delivery-app-full-stack",
         },
         {
-          title: "Christian Doidge Portfolio website",
+          title: "Full Stack Movie App - Netflix Clone",
           excerpt:
-            "Christian Doidge is a professional footballer who plays as a striker for Forest Green of England and the Welsh national team. He is known for his aerial ability and goal-scoring prowess.",
-          description: `# ✨ Christian Doidge
+            "Fully functional Movie App in React Native with MovieDB api",
+          description: `# Movie App - Netflix Clone.
+          🎬 Prebuilt Movie App for Startups & Creators
+Built with React Native | Full Source Code | Ready to Launch
 
-          Christian Doidge is a professional footballer who plays as a striker for Forest Green of England and the Welsh national team. He is known for his aerial ability and goal-scoring prowess.`,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/christian-doidge.png",
-          slug: "christian-doidge",
-          link: "/projects/christian-doidge",
-          liveLink: "https://preview--doidge-striker-story.lovable.app/",
+Ready to own your own Netflix-style app?
+Our Movie App is fully developed, polished, and ready for you to launch your brand, review platform, or entertainment startup fast!
+
+What’s Included:
+
+Movie listings powered by MovieDB API
+
+Smooth Navigation + Search functionality
+
+Image Carousel for featured movies
+
+Hero icons + modern UI
+
+Beautiful Linear Gradient styling
+
+Cross-platform ready (Web, Android, iOS)
+
+Built with React Native, Nativewind (TailwindCSS)
+
+Perfect for:
+Movie review sites, streaming startups, entertainment blogs, or fan communities.
+
+Also Includes:
+
+Full Source Code
+
+Launch Assistance
+
+6 Months Premium Support
+
+Price:
+₦800,000 or $400
+One-time. Full ownership.
+
+🎬 Start your entertainment brand today!
+
+#RJBWorld #MovieApp #ReactNativeDev #StreamingStartup #LaunchFast #MobileApps #EntertainmentTech
+          `,
+          techStacks: [
+            "React Native",
+            "Node.js",
+            "Tailwind CSS",
+            "MovieDB API",
+            "Firebase",
+            "Redux",
+          ],
+          image: "/images/projects/movie-app.webp",
+          slug: "movie-app",
+          link: "/projects/movie-app",
+          liveLink: "https://store.rjbworld.org/product/movie-app",
         },
+        {
+          title: "Apple store - 3D Apple Macbook Website",
+          excerpt:
+            "Apple-style 3D website built with React, Three.js, GSAP, and TailwindCSS! Showcase products in immersive 3D scenes, scroll-animated models, and pinned sections.",
+          description: `# ✨ Apple Store - 3D Apple Macbook Website
+
+  Apple Store is a visually stunning 3D website designed to showcase the latest Apple Macbook models. Built with React, Three.js, GSAP, and TailwindCSS, it offers an immersive shopping experience with interactive 3D scenes and smooth animations.
+
+Featuring responsive design, smooth timeline animations, and visually striking image transitions—perfect for developers creating interactive, modern web experiences.
+`,
+          techStacks: [
+            "React.js",
+            "GSAP",
+            "Three.js",
+            "Tailwind CSS",
+            "Vite ",
+            "Vercel",
+            "Zustand",
+          ],
+          image: "/images/projects/apple-store.png",
+          slug: "apple-store",
+          link: "/projects/apple-store",
+          liveLink: "https://applestore.rjbworld.org/",
+        },
+
+        // {
+        //   title: "Victor Oshimehn Portfolio website",
+        //   excerpt:
+        //     "Victor Osimhen is a Nigerian professional footballer, currently playing as a striker for Galatasaray and the Nigerian national team. Known for his athleticism, pace, and elite finishing, he's one of the most feared strikers in the modern game.",
+        //   description: `# ✨ Victor Oshimehn
+
+        //   Victor Osimhen is a Nigerian professional footballer, currently playing as a striker for Galatasaray and the Nigerian national team. Known for his athleticism, pace, and elite finishing, he's one of the most feared strikers in the modern game.`,
+        //   techStacks: ["React", "MongoDB", "Node.js"],
+        //   image: "/images/projects/victor-oshimehn.png",
+        //   slug: "victor-oshimehn",
+        //   link: "/projects/victor-oshimehn",
+        //   liveLink: "https://preview--victor-osimhen-legacy.lovable.app/",
+        // },
+        //       {
+        //         title: "Kwame Thomas Portfolio website",
+        //         excerpt:
+        //           "Kwame Thomas a dynamic striker with international experience, representing both England youth levels and the Saint Kitts and Nevis national team. Known for his aerial ability, pace, and clinical finishing in the box.",
+        //         description: `# ✨ Kwame Thomas – The Striker's Journey
+
+        // Kwame Thomas is a dynamic striker with international experience, representing both England youth levels and the Saint Kitts and Nevis national team. Known for his aerial ability, pace, and clinical finishing in the box, Kwame has made a name for himself in the competitive world of football.`,
+        //         techStacks: ["React", "MongoDB", "Node.js"],
+        //         image: "/images/projects/kwame-thomas.png",
+        //         slug: "kwame-thomas",
+        //         link: "/projects/kwame-thomas",
+        //         liveLink: "https://preview--kwame-striker-spark.lovable.app/",
+        //       },
+
+        // {
+        //   title: "Asisat Oshoala Portfolio website",
+        //   excerpt:
+        //     "Asisat Oshoala is a Nigerian player born in Lagos, Nigeria. Asisat Lamina Oshoala's journey began at Robo FC and Rivers Angels before making history as the first African to play in the Women's Super League with Liverpool and Arsenal.",
+        //   description: `# ✨ Asisat Oshoala – The Trailblazer
+
+        //   Asisat Oshoala is a Nigerian player born in Lagos, Nigeria. Asisat Lamina Oshoala's journey began at Robo FC and Rivers Angels before making history as the first African to play in the Women's Super League with Liverpool and Arsenal.`,
+        //   techStacks: ["React", "MongoDB", "Node.js"],
+        //   image: "/images/projects/asisat-oshoala.png",
+        //   slug: "asisat-oshoala",
+        //   link: "/projects/asisat-oshoala",
+        //   liveLink: "https://preview--asiso-legacy-showcase.lovable.app/",
+        // },
+        // {
+        //   title: "Kahrel reddin Portfolio website",
+        //   excerpt:
+        //     "Kahrel Reddin is a talented footballer known for his skills on the pitch and his dedication to the sport.",
+        //   description: `# ✨ Kahrel Reddin – The Rising Star
+
+        //   Kahrel Reddin is a talented footballer known for his skills on the pitch and his dedication to the sport. With a passion for the game and a commitment to excellence, Kahrel has made significant strides in his career, showcasing his abilities at various levels of competition.`,
+        //   techStacks: ["React", "MongoDB", "Node.js"],
+        //   image: "/images/projects/Kahrel-reddin.png",
+        //   slug: "kahrel-reddin",
+        //   link: "/projects/kahrel-reddin",
+        //   liveLink: "https://preview--kahrel-reddin-impact.lovable.app/",
+        // },
+        {
+          title: "SoulRise Ngo website",
+          excerpt:
+            "SoulRise Ngo is a non-profit organization dedicated to empowering underprivileged communities through education and skill development.",
+          description: `# ✨ SoulRise Ngo – Empowering Communities
+          SoulRise Ngo is a non-profit organization dedicated to empowering underprivileged communities through education and skill development. With a mission to uplift lives and create sustainable change, SoulRise Ngo works tirelessly to provide resources, training, and support to those in need.`,
+          techStacks: ["React", "MongoDB", "Node.js"],
+          image: "/images/projects/uplift.png",
+          slug: "soulrise-ngo",
+          link: "/projects/soulrise-ngo",
+          liveLink: "https://uplift-glow.vercel.app/",
+        },
+
+        {
+          title: "EcoGuardian Ngo website",
+          excerpt:
+            "EcoGuardian Ngo is a non-profit organization dedicated to empowering underprivileged communities through education and skill development.",
+          description: `# ✨ EcoGuardian Ngo – Empowering Communities
+          EcoGuardian Ngo is a non-profit organization dedicated to empowering underprivileged communities through education and skill development. With a mission to uplift lives and create sustainable change, EcoGuardian Ngo works tirelessly to provide resources, training, and support to those in need.`,
+          techStacks: ["React", "MongoDB", "Node.js"],
+          image: "/images/projects/ecofriendly.png",
+          slug: "eco-guardian-ngo",
+          link: "/projects/eco-guardian-ngo",
+          liveLink: "https://eco-story-bloom.vercel.app/",
+        },
+        // {
+        //   title: "Georgie Kelly Portfolio website",
+        //   excerpt:
+        //     "Georgie Kelly is a professional footballer who plays as a striker for Carlisle United England.",
+        //   description: `# ✨ Georgie Kelly – The Rising Star
+
+        //   Georgie Kelly is a professional footballer who plays as a striker for Carlisle United England. he is a clinical finisher and commanding forward, Georgie Kelly has made his mark across Irish and English leagues — known for his hat-tricks, match-winning goals, and powerful presence in the final third.With a passion for the game and a commitment to excellence, Georgie has made significant strides in his career, showcasing his abilities at various levels of competition.`,
+        //   techStacks: ["React", "MongoDB", "Node.js"],
+        //   image: "/images/projects/georgie-kelly.png",
+        //   slug: "georgie-kelly",
+        //   link: "/projects/georgie-kelly",
+        //   liveLink: "https://preview--georgie-the-goalscorer.lovable.app/",
+        // },
+        {
+          title: "Ngo Fundraising website",
+          excerpt: "A platform to support fundraising efforts for NGOs.",
+          description: `A platform to support fundraising efforts for NGOs.`,
+          techStacks: ["React", "MongoDB", "Node.js"],
+          image: "/images/projects/crowdfunding.png",
+          slug: "ngo-fundraising",
+          link: "/projects/ngo-fundraising",
+          liveLink: "https://eco-story-bloom.vercel.app/",
+        },
+
+        {
+          title: "Ai Assistant Chat App - ChatGpt Clone",
+          excerpt:
+            "AI Voice Assistant with ChatGPT + DALL-E, you can chat with the assistant and generate art using DALL-E. You will also learn text-to-speech and speech-to-text features.",
+          description: `# Ai Assistant Chat App - ChatGpt Clone.
+          🧠🎙 Launch Your Own AI Voice Assistant App
+Built with React Native | ChatGPT + DALL·E Powered | Full Source Code
+
+Bring AI magic to your brand with our prebuilt AI Voice Assistant App — smart, fast, and ready for market!
+Skip months of dev time and own a cutting-edge app today.
+
+What’s Inside:
+
+Voice Commands: Speech-to-Text and Text-to-Speech
+
+AI Chat: Powered by ChatGPT API
+
+AI Image Generation: Powered by DALL·E API
+
+Beautiful UI with TailwindCSS (Nativewind)
+
+Lightning-fast responsiveness
+
+Cross-platform: Web, Android, iOS
+
+Perfect for:
+AI startups, virtual assistants, productivity apps, education platforms, personal project launches, and more!
+
+Also Includes:
+
+Full Source Code
+
+Launch & Setup Assistance
+
+6 Months Premium Support
+
+Price:
+₦800,000 or $400
+Lifetime license. Launch your brand today!
+
+🚀 Be the future.
+Start your AI journey now!
+          `,
+          techStacks: [
+            "React Native",
+            "Node.js",
+            "Native wind",
+            "OpenAI API",
+            "Firebase",
+            "Dell-E API",
+          ],
+          image: "/images/projects/Ai-chat-assistant.webp",
+          slug: "ai-assistant-chat-app",
+          link: "/projects/ai-assistant-chat-app",
+          liveLink: "https://www.companysite.com/project-two",
+        },
+        {
+          title: "Ngo VolunteerMatch website",
+          excerpt: "A platform to connect volunteers with NGOs.",
+          description: `A platform to connect volunteers with NGOs.`,
+          techStacks: ["React", "MongoDB", "Node.js"],
+          image: "/images/projects/volunteer.png",
+          slug: "ngo-volunteermatch",
+          link: "/projects/ngo-volunteermatch",
+          liveLink: "https://soul-stirring-sync.vercel.app/",
+        },
+        //         {
+        //           title: "Paul McCallum Portfolio website",
+        //           excerpt:
+        //             "Paul McCallum is a Eastleigh FC professional footballer. He is a dominant aerial threat and clinical finisher, Paul McCallum has spent over a decade terrorizing defences across the English football pyramid.",
+        //           description: `# ✨ Victor Oshimehn
+
+        //           A dominant aerial threat and clinical finisher, Paul McCallum has spent over a decade terrorizing defences across the English football pyramid.
+
+        // From grassroots beginnings at Dulwich Hamlet to scoring goals for Leyton Orient, Dagenham & Redbridge, and Eastleigh, Paul's experience, physicality, and consistency set him apart as one of the most reliable strikers in non-league football.
+
+        // His recent call-up to the England C squad in 2024 is testament to his enduring quality and goal-scoring prowess at the highest levels of semi-professional football.`,
+        //           techStacks: ["React", "MongoDB", "Node.js"],
+        //           image: "/images/projects/Paul-McCallum.png",
+        //           slug: "paul-mccallum",
+        //           link: "/projects/paul-mccallum",
+        //           liveLink: "https://preview--paul-mccallum-striker.lovable.app/",
+        //         },
+
+        // {
+        //   title: "Christian Doidge Portfolio website",
+        //   excerpt:
+        //     "Christian Doidge is a professional footballer who plays as a striker for Forest Green of England and the Welsh national team. He is known for his aerial ability and goal-scoring prowess.",
+        //   description: `# ✨ Christian Doidge
+
+        //   Christian Doidge is a professional footballer who plays as a striker for Forest Green of England and the Welsh national team. He is known for his aerial ability and goal-scoring prowess.`,
+        //   techStacks: ["React", "MongoDB", "Node.js"],
+        //   image: "/images/projects/christian-doidge.png",
+        //   slug: "christian-doidge",
+        //   link: "/projects/christian-doidge",
+        //   liveLink: "https://preview--doidge-striker-story.lovable.app/",
+        // },
         {
           title: "LinkUp - Social Media App",
           excerpt:
@@ -510,19 +548,19 @@ One-time. Lifetime ownership.
           liveLink:
             "https://store.rjbworld.org/product/linkup-social-media-app",
         },
-        {
-          title: "Frank Nouble Portfolio website",
-          excerpt:
-            "Frank Nouble is a journeyman striker with deep experience across English, Welsh, and Chinese football. Known for his power, adaptability, and presence up front, Frank has played over 400 professional matches, represented England at youth level, and competed on three continents — from Premier League beginnings to National League resilience.",
-          description: `# ✨ Frank Nouble
+        // {
+        //   title: "Frank Nouble Portfolio website",
+        //   excerpt:
+        //     "Frank Nouble is a journeyman striker with deep experience across English, Welsh, and Chinese football. Known for his power, adaptability, and presence up front, Frank has played over 400 professional matches, represented England at youth level, and competed on three continents — from Premier League beginnings to National League resilience.",
+        //   description: `# ✨ Frank Nouble
 
-          Frank Nouble is a journeyman striker with deep experience across English, Welsh, and Chinese football. Known for his power, adaptability, and presence up front, Frank has played over 400 professional matches, represented England at youth level, and competed on three continents — from Premier League beginnings to National League resilience.`,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/frank-nouble.png",
-          slug: "frank-nouble",
-          link: "/projects/frank-nouble",
-          liveLink: "https://preview--frank-nouble-striker-legend.lovable.app/",
-        },
+        //   Frank Nouble is a journeyman striker with deep experience across English, Welsh, and Chinese football. Known for his power, adaptability, and presence up front, Frank has played over 400 professional matches, represented England at youth level, and competed on three continents — from Premier League beginnings to National League resilience.`,
+        //   techStacks: ["React", "MongoDB", "Node.js"],
+        //   image: "/images/projects/frank-nouble.png",
+        //   slug: "frank-nouble",
+        //   link: "/projects/frank-nouble",
+        //   liveLink: "https://preview--frank-nouble-striker-legend.lovable.app/",
+        // },
         {
           title: "Fitness App",
           excerpt:
@@ -573,19 +611,19 @@ One-time payment. Full ownership.
           link: "/projects/fitness-app",
           liveLink: "https://store.rjbworld.org/product/fitness-app",
         },
-        {
-          title: "Aaron Cosgrave Portfolio website",
-          excerpt:
-            "From West Ham's academy to leading the line in the National League South, Aaron Cosgrave is a sharp, mobile forward known for his relentless pressing and ability to carve out opportunities in tight spaces. With experience across non-league and EFL clubs, Aaron continues to rise through consistency, work rate, and finishing instincts.",
-          description: `# ✨ Aaron Cosgrave
+        // {
+        //   title: "Aaron Cosgrave Portfolio website",
+        //   excerpt:
+        //     "From West Ham's academy to leading the line in the National League South, Aaron Cosgrave is a sharp, mobile forward known for his relentless pressing and ability to carve out opportunities in tight spaces. With experience across non-league and EFL clubs, Aaron continues to rise through consistency, work rate, and finishing instincts.",
+        //   description: `# ✨ Aaron Cosgrave
 
-          From West Ham's academy to leading the line in the National League South, Aaron Cosgrave is a sharp, mobile forward known for his relentless pressing and ability to carve out opportunities in tight spaces. With experience across non-league and EFL clubs, Aaron continues to rise through consistency, work rate, and finishing instincts.`,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/aaron-cosgrave.png",
-          slug: "aaron-cosgrave",
-          link: "/projects/aaron-cosgrave",
-          liveLink: "https://preview--cosgrave-pace-power.lovable.app/",
-        },
+        //   From West Ham's academy to leading the line in the National League South, Aaron Cosgrave is a sharp, mobile forward known for his relentless pressing and ability to carve out opportunities in tight spaces. With experience across non-league and EFL clubs, Aaron continues to rise through consistency, work rate, and finishing instincts.`,
+        //   techStacks: ["React", "MongoDB", "Node.js"],
+        //   image: "/images/projects/aaron-cosgrave.png",
+        //   slug: "aaron-cosgrave",
+        //   link: "/projects/aaron-cosgrave",
+        //   liveLink: "https://preview--cosgrave-pace-power.lovable.app/",
+        // },
         {
           title: "MyTube - Youtube Clone",
           excerpt:
@@ -635,20 +673,20 @@ Own it. Customize it. Launch it. 🚀
           link: "/projects/mytube-youtube-clone",
           liveLink: "https://store.rjbworld.org/product/mytube-youtube-clone",
         },
-        {
-          title: "Sam Folarin Portfolio website",
-          excerpt:
-            "Sam Folarin is a professional footballer who plays as a striker for the National League South club, Hartlepool United. Known for his pace, technical ability, and goal-scoring prowess, Sam has made a significant impact in the lower leagues of English football.",
-          description: `# ✨ Sam Folarin
+        // {
+        //   title: "Sam Folarin Portfolio website",
+        //   excerpt:
+        //     "Sam Folarin is a professional footballer who plays as a striker for the National League South club, Hartlepool United. Known for his pace, technical ability, and goal-scoring prowess, Sam has made a significant impact in the lower leagues of English football.",
+        //   description: `# ✨ Sam Folarin
 
-          Sam Folarin is a professional footballer who plays as a striker for the National League South club, Hartlepool United. Known for his pace, technical ability, and goal-scoring prowess, Sam has made a significant impact in the lower leagues of English football.`,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/sam-folarin.png",
-          slug: "sam-folarin",
-          link: "/projects/sam-folarin",
-          liveLink:
-            "https://preview--sam-folarin-football-showcase.lovable.app/",
-        },
+        //   Sam Folarin is a professional footballer who plays as a striker for the National League South club, Hartlepool United. Known for his pace, technical ability, and goal-scoring prowess, Sam has made a significant impact in the lower leagues of English football.`,
+        //   techStacks: ["React", "MongoDB", "Node.js"],
+        //   image: "/images/projects/sam-folarin.png",
+        //   slug: "sam-folarin",
+        //   link: "/projects/sam-folarin",
+        //   liveLink:
+        //     "https://preview--sam-folarin-football-showcase.lovable.app/",
+        // },
         {
           title: "Food Delivery App - Papa John's Clone",
           excerpt:
@@ -706,19 +744,19 @@ Customize it. Launch it. Own the market! 🍕📲
           link: "/projects/food-delivery-app-papa-johns-clone",
           liveLink: "https://www.companysite.com/project-two",
         },
-        {
-          title: "Jack Stretton Portfolio website",
-          excerpt:
-            "Jack Stretton is a professional footballer who plays as a striker for Morecambe FC of England. Known for his pace, technical ability, and goal-scoring prowess, Jack has made a significant impact in the lower leagues of English football.",
-          description: `# ✨ Jack Stretton
+        // {
+        //   title: "Jack Stretton Portfolio website",
+        //   excerpt:
+        //     "Jack Stretton is a professional footballer who plays as a striker for Morecambe FC of England. Known for his pace, technical ability, and goal-scoring prowess, Jack has made a significant impact in the lower leagues of English football.",
+        //   description: `# ✨ Jack Stretton
 
-          Jack Stretton is a professional footballer who plays as a striker for Morecambe FC of England. Known for his pace, technical ability, and goal-scoring prowess, Jack has made a significant impact in the lower leagues of English football.`,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/jack-stretton.png",
-          slug: "jack-stretton",
-          link: "/projects/jack-stretton",
-          liveLink: "https://preview--jackstretton-journey-fc.lovable.app/",
-        },
+        //   Jack Stretton is a professional footballer who plays as a striker for Morecambe FC of England. Known for his pace, technical ability, and goal-scoring prowess, Jack has made a significant impact in the lower leagues of English football.`,
+        //   techStacks: ["React", "MongoDB", "Node.js"],
+        //   image: "/images/projects/jack-stretton.png",
+        //   slug: "jack-stretton",
+        //   link: "/projects/jack-stretton",
+        //   liveLink: "https://preview--jackstretton-journey-fc.lovable.app/",
+        // },
         {
           title: "Bezzie - E-commerce App",
           excerpt:
@@ -733,25 +771,25 @@ Customize it. Launch it. Own the market! 🍕📲
           liveLink:
             "https://drive.google.com/drive/folders/1sySVShfdgG2Aem5X-fYV3TCtHENQEncp?usp=drive_link",
         },
-        {
-          title: "KAIRO MITCHELL Portfolio website",
-          excerpt:
-            "Kairo Mitchell is a professional footballer who plays as a striker for Forest Green Rovers. Known for his pace, technical ability, and goal-scoring prowess, Kairo has made a significant impact in the lower leagues of English football.",
-          description: `# ✨ Kairo Mitchell
+        //         {
+        //           title: "KAIRO MITCHELL Portfolio website",
+        //           excerpt:
+        //             "Kairo Mitchell is a professional footballer who plays as a striker for Forest Green Rovers. Known for his pace, technical ability, and goal-scoring prowess, Kairo has made a significant impact in the lower leagues of English football.",
+        //           description: `# ✨ Kairo Mitchell
 
-         KAIRO
-MITCHELL
-Professional Striker • Forest Green Rovers • Former Leicester City Academy`,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/kairo-mitchell.png",
-          slug: "kairo-mitchell",
-          link: "/projects/kairo-mitchell",
-          liveLink: "https://preview--kairo-striker-showcase.lovable.app/",
-        },
+        //          KAIRO
+        // MITCHELL
+        // Professional Striker • Forest Green Rovers • Former Leicester City Academy`,
+        //           techStacks: ["React", "MongoDB", "Node.js"],
+        //           image: "/images/projects/kairo-mitchell.png",
+        //           slug: "kairo-mitchell",
+        //           link: "/projects/kairo-mitchell",
+        //           liveLink: "https://preview--kairo-striker-showcase.lovable.app/",
+        //         },
         {
           title: "X Store - E-commerce App",
           excerpt:
-            "X Store is a full-stack Next.js web application that allows users to buy and sell products.",
+            "X Store is a full-stack Next.js web application currently opereting in Lagos and Oguns State. XStore allows users to buy and sell products from different parts of Nigeria",
           description: `# X Store - E-commerce App`,
           techStacks: ["Next.js", "Tailwind CSS", "Node.js"],
           image: "/images/projects/xStore.png",
@@ -759,17 +797,17 @@ Professional Striker • Forest Green Rovers • Former Leicester City Academy`,
           link: "/projects/xstore-ecommerce",
           liveLink: "https://store.rjbworld.org",
         },
-        {
-          title: "Laurette Nogo FIFA Agent",
-          excerpt:
-            "Laurette Nogo is a FIFA licenced Football Agent With a distinguished background in journalism and an intimate understanding of Romanian football, Laurette Nogo has evolved into one of the most respected FIFA-licensed intermediaries in the industry. ",
-          description: `Laurette Nogo is a FIFA licenced Football Agent With a distinguished background in journalism and an intimate understanding of Romanian football, Laurette Nogo has evolved into one of the most respected FIFA-licensed intermediaries in the industry.`,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/laurette.png",
-          slug: "laurette-nogo",
-          link: "/projects/laurette-nogo",
-          liveLink: "https://preview--laurette-pro-agent.lovable.app/",
-        },
+        // {
+        //   title: "Laurette Nogo FIFA Agent",
+        //   excerpt:
+        //     "Laurette Nogo is a FIFA licenced Football Agent With a distinguished background in journalism and an intimate understanding of Romanian football, Laurette Nogo has evolved into one of the most respected FIFA-licensed intermediaries in the industry. ",
+        //   description: `Laurette Nogo is a FIFA licenced Football Agent With a distinguished background in journalism and an intimate understanding of Romanian football, Laurette Nogo has evolved into one of the most respected FIFA-licensed intermediaries in the industry.`,
+        //   techStacks: ["React", "MongoDB", "Node.js"],
+        //   image: "/images/projects/laurette.png",
+        //   slug: "laurette-nogo",
+        //   link: "/projects/laurette-nogo",
+        //   liveLink: "https://preview--laurette-pro-agent.lovable.app/",
+        // },
         {
           title: "Xclusive Realtors - Real Estate App",
           excerpt:
@@ -781,17 +819,17 @@ Professional Striker • Forest Green Rovers • Former Leicester City Academy`,
           link: "/projects/xclusive-realtors",
           liveLink: "https://uae-properties-teal.vercel.app/",
         },
-        {
-          title: "Jordan Ponticelli of Tamworth FC",
-          excerpt:
-            "Jordan Ponticelli is a full Striker for Tamworth Fc in the National Leauge in England ",
-          description: `Jordan Ponticelli is a full Striker for Tamworth Fc in the National Leauge in England `,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/jordan-ponticelli.png",
-          slug: "jordan-ponticelli",
-          link: "/projects/jordan-ponticelli",
-          liveLink: "https://jordan-ponticelli-magic-spark.vercel.app/",
-        },
+        // {
+        //   title: "Jordan Ponticelli of Tamworth FC",
+        //   excerpt:
+        //     "Jordan Ponticelli is a full Striker for Tamworth Fc in the National Leauge in England ",
+        //   description: `Jordan Ponticelli is a full Striker for Tamworth Fc in the National Leauge in England `,
+        //   techStacks: ["React", "MongoDB", "Node.js"],
+        //   image: "/images/projects/jordan-ponticelli.png",
+        //   slug: "jordan-ponticelli",
+        //   link: "/projects/jordan-ponticelli",
+        //   liveLink: "https://jordan-ponticelli-magic-spark.vercel.app/",
+        // },
         {
           title: "🍎⌚ Apple Watch Store App (Kotlin + Firebase)",
           excerpt: `Launch Your Own Premium Smartwatch Store App 🚀
@@ -848,17 +886,17 @@ One-time payment. Full ownership.
           liveLink:
             "https://store.rjbworld.org/product/apple-watch-store-app-kotlin-firebase",
         },
-        {
-          title: "Tyler-Harvey of Truro FC",
-          excerpt:
-            "Tyler Harvey is not just a goalscorer - he's the heartbeat of this team. His work rate, his positioning, his leadership... he's everything you want in a striker. ",
-          description: `Tyler Harvey is not just a goalscorer - he's the heartbeat of this team. His work rate, his positioning, his leadership... he's everything you want in a striker.`,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/tyler-harvey.png",
-          slug: "tyler-harvey",
-          link: "/projects/tyler-harvey",
-          liveLink: "https://tyler-harvey-legacy.vercel.app/",
-        },
+        // {
+        //   title: "Tyler-Harvey of Truro FC",
+        //   excerpt:
+        //     "Tyler Harvey is not just a goalscorer - he's the heartbeat of this team. His work rate, his positioning, his leadership... he's everything you want in a striker. ",
+        //   description: `Tyler Harvey is not just a goalscorer - he's the heartbeat of this team. His work rate, his positioning, his leadership... he's everything you want in a striker.`,
+        //   techStacks: ["React", "MongoDB", "Node.js"],
+        //   image: "/images/projects/tyler-harvey.png",
+        //   slug: "tyler-harvey",
+        //   link: "/projects/tyler-harvey",
+        //   liveLink: "https://tyler-harvey-legacy.vercel.app/",
+        // },
         {
           title: "💳✨ Banking App (Kotlin + Firebase)",
           excerpt: `Your Own Digital Bank – Built for Scale 🏦
@@ -905,16 +943,16 @@ A premium full-featured Banking App built with Kotlin, Firebase, and modern Mate
           liveLink:
             "https://store.rjbworld.org/product/banking-app-kotlin-firebase",
         },
-        {
-          title: "Max Kretzschmar of Wealdstone FC",
-          excerpt: "   ",
-          description: ``,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/maxkretzschmar-stones.png",
-          slug: "maxkretzschmar-stones",
-          link: "/projects/maxkretzschmar-stones",
-          liveLink: "https://maxkretzschmar-stones-playmaker.vercel.app/",
-        },
+        // {
+        //   title: "Max Kretzschmar of Wealdstone FC",
+        //   excerpt: "   ",
+        //   description: ``,
+        //   techStacks: ["React", "MongoDB", "Node.js"],
+        //   image: "/images/projects/maxkretzschmar-stones.png",
+        //   slug: "maxkretzschmar-stones",
+        //   link: "/projects/maxkretzschmar-stones",
+        //   liveLink: "https://maxkretzschmar-stones-playmaker.vercel.app/",
+        // },
         {
           title: "☕📱 Online Coffee Shop App (Kotlin + Firebase)",
           excerpt:
@@ -955,16 +993,16 @@ A premium full-featured Banking App built with Kotlin, Firebase, and modern Mate
           liveLink:
             "https://store.rjbworld.org/product/online-coffee-shop-app-kotlin-firebase",
         },
-        {
-          title: "Aiden O'Brien of Woking FC",
-          excerpt: "",
-          description: ``,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/aiden-obrien.png",
-          slug: "aiden-obrien",
-          link: "/projects/aiden-obrien",
-          liveLink: "https://aiden-obrien-goal-machine.vercel.app/",
-        },
+        // {
+        //   title: "Aiden O'Brien of Woking FC",
+        //   excerpt: "",
+        //   description: ``,
+        //   techStacks: ["React", "MongoDB", "Node.js"],
+        //   image: "/images/projects/aiden-obrien.png",
+        //   slug: "aiden-obrien",
+        //   link: "/projects/aiden-obrien",
+        //   liveLink: "https://aiden-obrien-goal-machine.vercel.app/",
+        // },
 
         {
           title: "💸🔐 Crypto App in Kotlin (with Source Code)",
@@ -1008,16 +1046,16 @@ A premium full-featured Banking App built with Kotlin, Firebase, and modern Mate
           liveLink:
             "https://store.rjbworld.org/product/crypto-app-in-kotlin-with-source-code",
         },
-        {
-          title: "Aaron Jarvis of Yeovil Town FC",
-          excerpt: "",
-          description: ``,
-          techStacks: ["React", "MongoDB", "Node.js"],
-          image: "/images/projects/aaron-jarvis.png",
-          slug: "aaron-jarvis",
-          link: "/projects/aaron-jarvis",
-          liveLink: "https://aaron-jarvis.vercel.app/",
-        },
+        // {
+        //   title: "Aaron Jarvis of Yeovil Town FC",
+        //   excerpt: "",
+        //   description: ``,
+        //   techStacks: ["React", "MongoDB", "Node.js"],
+        //   image: "/images/projects/aaron-jarvis.png",
+        //   slug: "aaron-jarvis",
+        //   link: "/projects/aaron-jarvis",
+        //   liveLink: "https://aaron-jarvis.vercel.app/",
+        // },
         {
           title: "🩺 Doctor Appointment App in Kotlin (with Source Code)",
           excerpt:
@@ -1063,85 +1101,85 @@ Clean UI/UX with Medical Theme
           liveLink:
             "https://store.rjbworld.org/product/doctor-appointment-app-in-kotlin-with-source-code",
         },
-        {
-          title: "🩺 Doctor Appointment App in Kotlin (with Source Code)",
-          excerpt:
-            "🩺 Doctor Appointment App in Java (Android Studio + Firebase) Launch a sleek, modern Doctor Appointment App built in Java using Android Studio with Firebase integration. This complete app includes an elegant splash screen, intuitive intro activity, a modern dashboard, and detailed doctor profiles for appointment scheduling.",
-          description: `#🩺 Doctor Appointment App in Kotlin (with Source Code)
-          
-          🩺 Doctor Appointment App in Java (Android Studio + Firebase) Launch a sleek, modern Doctor Appointment App built in Java using Android Studio with Firebase integration. This complete app includes an elegant splash screen, intuitive intro activity, a modern dashboard, and detailed doctor profiles for appointment scheduling.
+        //         {
+        //           title: "🩺 Doctor Appointment App in Kotlin (with Source Code)",
+        //           excerpt:
+        //             "🩺 Doctor Appointment App in Java (Android Studio + Firebase) Launch a sleek, modern Doctor Appointment App built in Java using Android Studio with Firebase integration. This complete app includes an elegant splash screen, intuitive intro activity, a modern dashboard, and detailed doctor profiles for appointment scheduling.",
+        //           description: `#🩺 Doctor Appointment App in Kotlin (with Source Code)
 
-✅ Features: Java-Based Android App (Built in Android Studio)
+        //           🩺 Doctor Appointment App in Java (Android Studio + Firebase) Launch a sleek, modern Doctor Appointment App built in Java using Android Studio with Firebase integration. This complete app includes an elegant splash screen, intuitive intro activity, a modern dashboard, and detailed doctor profiles for appointment scheduling.
 
-Firebase Database Integration (Real-time)
+        // ✅ Features: Java-Based Android App (Built in Android Studio)
 
-Material Design Dashboard
+        // Firebase Database Integration (Real-time)
 
-Intro & Splash Activities
+        // Material Design Dashboard
 
-Appointment Booking Functionality
+        // Intro & Splash Activities
 
-Doctor Detail Pages
+        // Appointment Booking Functionality
 
-Clean and Responsive UI
+        // Doctor Detail Pages
 
-💼 What You Get: Full Java Source Code
+        // Clean and Responsive UI
 
-Firebase Setup
+        // 💼 What You Get: Full Java Source Code
 
-6 Months Support
+        // Firebase Setup
 
-Commercial Use Rights
+        // 6 Months Support
 
-Easy-to-Customize Codebase
+        // Commercial Use Rights
 
-💰 Price: ₦200,000 or $120`,
-          techStacks: ["Java", "Firebase"],
-          image: "/images/projects/doctor-appointment-app1.webp",
-          slug: "doctor-appointment-app-two",
-          link: "/projects/doctor-appointment-app-two",
-          liveLink:
-            "https://store.rjbworld.org/product/doctor-appointment-app-in-kotlin-with-source-code-2",
-        },
-        {
-          title:
-            "🩺 Doctor Appointment App in Kotlin (Android Studio + Firebase)",
-          excerpt:
-            "🩺 Doctor Appointment App in Kotlin (Android Studio + Firebase) Build your own full-featured Doctor Appointment App using Kotlin and Android Studio Koala, seamlessly integrated with Firebase. This modern mobile solution includes a clean intro flow, splash screen, dashboard, and doctor detail pages for booking appointments.",
-          description: `#🩺 Doctor Appointment App in Kotlin (Android Studio + Firebase)
-          
-          🩺 Doctor Appointment App in Kotlin (Android Studio + Firebase) Build your own full-featured Doctor Appointment App using Kotlin and Android Studio Koala, seamlessly integrated with Firebase. This modern mobile solution includes a clean intro flow, splash screen, dashboard, and doctor detail pages for booking appointments.
+        // Easy-to-Customize Codebase
 
-✅ Features: Kotlin-based Android App (Built with Android Studio Koala)
+        // 💰 Price: ₦200,000 or $120`,
+        //           techStacks: ["Java", "Firebase"],
+        //           image: "/images/projects/doctor-appointment-app1.webp",
+        //           slug: "doctor-appointment-app-two",
+        //           link: "/projects/doctor-appointment-app-two",
+        //           liveLink:
+        //             "https://store.rjbworld.org/product/doctor-appointment-app-in-kotlin-with-source-code-2",
+        //         },
+        //         {
+        //           title:
+        //             "🩺 Doctor Appointment App in Kotlin (Android Studio + Firebase)",
+        //           excerpt:
+        //             "🩺 Doctor Appointment App in Kotlin (Android Studio + Firebase) Build your own full-featured Doctor Appointment App using Kotlin and Android Studio Koala, seamlessly integrated with Firebase. This modern mobile solution includes a clean intro flow, splash screen, dashboard, and doctor detail pages for booking appointments.",
+        //           description: `#🩺 Doctor Appointment App in Kotlin (Android Studio + Firebase)
 
-Firebase Integration for Realtime Database
+        //           🩺 Doctor Appointment App in Kotlin (Android Studio + Firebase) Build your own full-featured Doctor Appointment App using Kotlin and Android Studio Koala, seamlessly integrated with Firebase. This modern mobile solution includes a clean intro flow, splash screen, dashboard, and doctor detail pages for booking appointments.
 
-Splash & Intro Activities
+        // ✅ Features: Kotlin-based Android App (Built with Android Studio Koala)
 
-Modern Material Dashboard
+        // Firebase Integration for Realtime Database
 
-Doctor Detail + Appointment Booking
+        // Splash & Intro Activities
 
-Responsive UI (Mobile-first)
+        // Modern Material Dashboard
 
-💼 What You Get: Full Kotlin Source Code
+        // Doctor Detail + Appointment Booking
 
-Firebase Configuration
+        // Responsive UI (Mobile-first)
 
-6 Months Developer Support
+        // 💼 What You Get: Full Kotlin Source Code
 
-Commercial License
+        // Firebase Configuration
 
-Easy to Customize & Extend
+        // 6 Months Developer Support
 
-💰 Price: ₦200,000 or $120`,
-          techStacks: ["Kotlin", "Firebase"],
-          image: "/images/projects/doctor-appointment-app3.webp",
-          slug: "doctor-appointment-app-three",
-          link: "/projects/doctor-appointment-app-three",
-          liveLink:
-            "https://store.rjbworld.org/product/doctor-appointment-app-in-kotlin-android-studio-firebase",
-        },
+        // Commercial License
+
+        // Easy to Customize & Extend
+
+        // 💰 Price: ₦200,000 or $120`,
+        //           techStacks: ["Kotlin", "Firebase"],
+        //           image: "/images/projects/doctor-appointment-app3.webp",
+        //           slug: "doctor-appointment-app-three",
+        //           link: "/projects/doctor-appointment-app-three",
+        //           liveLink:
+        //             "https://store.rjbworld.org/product/doctor-appointment-app-in-kotlin-android-studio-firebase",
+        //         },
         {
           title: "🏋️ Workout App in Android Studio (Java/Kotlin)",
           excerpt:
@@ -2409,31 +2447,31 @@ Optional Firebase Integration Setup
           link: "/projects/mervielle-hub",
           liveLink: "https://honeybadgerng.github.io/Mervielle_hub/",
         },
-        {
-          title: "RJB Xclusive properties - Real Estate App",
-          excerpt:
-            "RJB Xclusive properties is a full stack Real Estate App. Built with React and Rapid API.",
-          description: `# RJB Xclusive properties - Real Estate App
-  
-  This is a detailed description of RJB Xclusive properties. It includes features, challenges, and solutions.`,
-          techStacks: ["React", "Rapid API", "Tailwind CSS"],
-          image: "/images/projects/xclusiveproperties.png",
-          slug: "rjb-xclusive-properties",
-          link: "/projects/rjb-xclusive-properties",
-          liveLink: "https://honeybadgerng.github.io/RJB-Properties/",
-        },
-        {
-          title: "The Resolve Interior Designs - Interior Design App",
-          excerpt:
-            "The Resolve Interior Designs is a is a interrior design company that specializes in creating beautiful and functional spaces.",
-          description: `# The Resolve Interior Designs - Interior Design App`,
-          techStacks: ["HTML", "CSS", "JavaScript"],
-          image: "/images/projects/resolvedecor.png",
-          slug: "the-resolve-interior-designs",
-          link: "/projects/the-resolve-interior-designs",
-          liveLink:
-            "https://honeybadgerng.github.io/interor_decor_sample_site_1/",
-        },
+        //       {
+        //         title: "RJB Xclusive properties - Real Estate App",
+        //         excerpt:
+        //           "RJB Xclusive properties is a full stack Real Estate App. Built with React and Rapid API.",
+        //         description: `# RJB Xclusive properties - Real Estate App
+
+        // This is a detailed description of RJB Xclusive properties. It includes features, challenges, and solutions.`,
+        //         techStacks: ["React", "Rapid API", "Tailwind CSS"],
+        //         image: "/images/projects/xclusiveproperties.png",
+        //         slug: "rjb-xclusive-properties",
+        //         link: "/projects/rjb-xclusive-properties",
+        //         liveLink: "https://honeybadgerng.github.io/RJB-Properties/",
+        //       },
+        // {
+        //   title: "The Resolve Interior Designs - Interior Design App",
+        //   excerpt:
+        //     "The Resolve Interior Designs is a is a interrior design company that specializes in creating beautiful and functional spaces.",
+        //   description: `# The Resolve Interior Designs - Interior Design App`,
+        //   techStacks: ["HTML", "CSS", "JavaScript"],
+        //   image: "/images/projects/resolvedecor.png",
+        //   slug: "the-resolve-interior-designs",
+        //   link: "/projects/the-resolve-interior-designs",
+        //   liveLink:
+        //     "https://honeybadgerng.github.io/interor_decor_sample_site_1/",
+        // },
 
         // {
         //   title: "",
